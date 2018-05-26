@@ -1,0 +1,389 @@
+{
+	"property": [
+		{
+			"location": "Hutchinson",
+			"title": "Hampton Inn in Borger, Texas - Hutchinson County",
+			"sold": "no",
+			"discription": "On 2.28 acres of land in a great location in Borger, this Hampton Inn & Suites is a great opportunity for anyone looking to purchase a business in Borger. With 64 rooms, an average occupancy rate of 95%, and 84 parking spaces, you can't go wrong with this property.",
+			"image": "./img/property/HamptonInnBorger.jpg",
+			"property_ID": "001"
+		},
+		{
+			"location": "Cottle",
+			"title": "320 Acres for Sale near Paducah, Texas - Cottle County",
+			"sold": "yes",
+			"discription": "This property sells with the cottage fully furnished of all top end furniture and fittings. There is 270 acres in the CRP program which still has 6 years left on it and pays $8,400.00 per year. The land in CRP is busy growing back to Mesquite and will soon be well covered in new brush growth. It joins large ranch country and has become home to many Deer, Whitetail as well as Mule Deer. This property is as the crow flies only about 2/3 miles south of the South Pease river. There are turkey, hogs. Quail have begun coming in because of the good grass cover. Included in the sale is 3 Deer feeders and 3 hunting blinds. As this property does have some annual income and is a good hunting place it makes for a good investment and is also a perfect Weekend Getaway. This is truly a gem of a property and this type does not come on the market very often.",
+			"image": "./img/property/Paducah.jpg",
+			"property_ID": "002"
+		},
+		{
+			"location": "Cottle",
+			"title": "Kings High Ranch near Childress, Texas - Cottle County",
+			"sold": "no",
+			"discription": "The Kings High Ranch is an above average developed property with a large barn on it and 5 more horse barns which are situated all at spaced distances apart. It has a large new house in the one end of the barn with 8 inch walls and high density insulation and 150 mile an hour storm doors. All the furniture and fittings sell with the property which is very well fitted with all top end materials. 2 Bedrooms and 3 bathrooms. Barn fitted with RV hookups inside and out. This is a very rare opportunity for some one who wants their own place to keep horses, run cattle and do some hunting. Public water but also has a good well, storm shelter and too much more to list. Right off of paved road and well fenced.",
+			"image": "./img/property/KingsHighRanch.jpg",
+			"property_ID": "003"
+		},
+		{
+			"location": "Cottle",
+			"title": "158 acres for Sale near Paducah, Texas - Cottle County",
+			"sold": "no",
+			"discription": "This 158 acre property is situated all along a paved road and is all in grass an leased out to a cattle man for the summer months which brings great revenue earning. There are many trees on it and also makes for good hunting with a hunters cabin on it. This cabin is presently rented out until sold. Public water and electricity. Property sell with 25% minerals and is close to some currently producing wells. With less minerals price could be adjusted.",
+			"image": "./img/property/158Paducah.jpg",
+			"property_ID": "004"
+		},
+		{
+			"location": "Cottle",
+			"title": "300 acres for Sale near Paducah, Texas - Cottle County",
+			"sold": "no",
+			"discription": "Good investment property as it is well fenced all around and is situated on the south side of the paved farm to market road 1038 and north of county road 440. It has good hunting and very good on Quail with the cover it has. Public water and electricity is available. Off of blacktop and quiet surroundings.",
+			"image": "./img/property/300Paducah.jpg",
+			"property_ID": "005"
+		},
+		{
+			"location": "Cottle",
+			"title": "Two Tracts - 308 Acres, Near Paducah, Texas - Cottle County Texas",
+			"sold": "yes",
+			"discription": "308 acres at $800 per acre, consisting of two tracts 1/4 mile apart. North tract is 95.79 acres. South tract is 212.38 acres. South tract has 179 acres cultivation crop land. North tract is east of FM 104 and north of County Road 327. South tract is west of County Road 327 and 1/4 mile south of North tract in Cottle County, Texas. 50% of minerals sell. Both adjoin a 110,000 acre ranching outfit with trophy sized white tail and mule deer, high population of hogs, turkey and quail.The property is three miles south of Peaase River off 104 and 8 miles north of Paducah. King Cottle public water available.",
+			"image": "./img/property/308Paducah.jpg",
+			"property_ID": "006"
+		},
+		{
+			"location": "Ellis",
+			"title": "Commercial Buildings for Sale in Ennis, Texas - Ellis County",
+			"sold": "no",
+			"discription": "Ennis wharehouse Park is a investers dream. All the buildings are rented out and always in demand. Only 30 minutes south of Dallas and near major highways for easy access. Double bay doors and all buildings are piped for fire sprinkler surpression. Food grade buildings. Load leveling docks and large parking area. Commercial gas heaters. Total area under roof 233,422 sq feet.",
+			"image": "./img/property/Ennis.png",
+			"property_ID": "007"
+		},
+		{
+			"location": "Foard",
+			"title": "Bursey Place - 192 acres at $1,000 per acre in Crowell, Texas - Foard County",
+			"sold": "yes",
+			"discription": "One mile Northeast of Crowell, East of County Road 210 and South of County Road 214. Northwest part of Section 427. All flat with scattered mesquite trees. Good grass cover. Excellent grazing. Good fences on three sides with hot fence on the North side. Electricity available and public water in the Southeast corner. Meter on Margaret Highway. Sufficient wildlife with bountiful quail. Owner financing available. TERMS: 70% owner financing available with 30% down with approval at 6% interest payable quarterly for 5 years with balloon payment at the end. Estimated Taxes $888 per year. Minerals available at this price.",
+			"image": "./img/property/BurseyPlace.jpg",
+			"property_ID": "008"
+		},
+		{
+			"location": "Hardeman",
+			"title": "160 Acres for Sale in Quanah, TX - Hardeman County",
+			"sold": "no",
+			"discription": "A 160 acre property close to town with all the needs on it to run cattle, keep horses and a little get away. Very well fenced and has a set of cattle corrals on it. With a storage facility. South side of Cr 104 on the paved road. Can also hunt on it and does have some additional income possibilities other than ag related.",
+			"image": "./img/property/160Quanah.png",
+			"property_ID": "009"
+		},
+		{
+			"location": "Hardeman",
+			"title": "House for Sale Quanah, TX - Hardeman County",
+			"sold": "no",
+			"discription": "Totally remodeled house, 2b/2b with all the upgrades to dream for. 2 Car garage and garden fitted with sprinkler system. This is a rare opportunity to find in Quanah Texas. This will not be available long and is a good house to live in or even as a investment property to rent out.",
+			"image": "./img/property/HouseQuanah.png",
+			"property_ID": "010"
+		},
+		{
+			"location": "Motley",
+			"title": "565 Acres for Sale Matador, TX - Motley County",
+			"sold": "no",
+			"discription": "This is an excellent cattle operation 565 acre farm with cropland and grassland. Very well fenced with 2 sets of cattle corrals and water piped to both corrals. It has a barn on it for storage. A water well supplies all the water and is fitted with a submersible water pump and electricity at the well and the barn. It is a dream to hunt on as it is on the edge of very large ranch country and very easy access. There is a small canyon on the east side about in the middle of the property",
+			"image": "./img/property/Matador.jpg",
+			"property_ID": "011"
+		},
+		{
+			"location": "Motley",
+			"title": "675 Acres for Sale Matador, TX - Motley County",
+			"sold": "no",
+			"discription": "This 675 acre property is a rear opportunity as it is very well suited to cattle and also a hunters dream. Well fenced and does have some cropland which has been fallowed for the past year. There are 3 very large ponds on this property of which one is spring fed and does not go dry and is also the largest. Fishing takes place by way of a boat on it. There is a 1 bedroom cabin on this property and a very good set of cattle corrals with a cattle scale and a barn. With the spring fed pond this is the big attraction to wildlife in the area and they come from a big area to water at this pond. 25% Minerals sell with this property or could be negotiated.",
+			"image": "./img/property/675Matador.png",
+			"property_ID": "012"
+		},
+		{
+			"location": "Potter_Randall",
+			"title": "Hale Road, Canyon Texas (31.69 Acres)",
+			"sold": "yes",
+			"discription": "31.69 Acres of unimproved, fenced land zoned Ag Dist. $110,000.00. From Canyon go 3 miles West on Highway 60 to Hereford, turn north on S. Dowell Road for 1 mile, left on Hale Road for 1/2 mile. Property is on the north side of the road. ",
+			"image": "./img/property/HaleRoad.jpg",
+			"property_ID": "013"
+		},
+		{
+			"location": "Potter_Randall",
+			"title": "370 Acres to sell in 20 Acre Lots and Larger",
+			"sold": "no",
+			"discription": "370 Acres to sell in any size 20 Acres and Larger. Road frontage on Blessen Rd on the west. Road frontage on Hill Rd on the east. Starting at $ 5000.00/acre depending on the size. Purchase all 370 at $3,000/acre. Owner financing available. ​Survey at the expense of the buyer determined at the size purchased. Fence to be built at the expense of the buyer. No Mobile Homes. Come take a look, make your offer. Electricity available. 5 to 10 Minutes from Amarillo",
+			"image": "./img/property/370Amarillo.jpg",
+			"property_ID": "014"
+		},
+		{
+			"location": "Potter_Randall",
+			"title": "1005 South 10th Street - Undeveloped Lot",
+			"sold": "no",
+			"discription": "Amarillo, Texas. 60' x 142.6' (8556 sqft). Totally fenced with security fencing. Taxes $ 210.46 yearly. Price $30,000.00 or $3.50/sqft.",
+			"image": "./img/property/1005S10thSt.jpg",
+			"property_ID": "015"
+		},
+		{
+			"location": "Potter_Randall",
+			"title": "5.74 Acres for Sale Amarillo, TX - Potter County",
+			"sold": "no",
+			"discription": "This 5.74 acre property is in a great location with easy access to the city and country.",
+			"image": "./img/property/5.74Potter.jpg",
+			"property_ID": "016"
+		},
+		{
+			"location": "Potter_Randall",
+			"title": "2 x 5.1 Acres for Sale Amarillo, TX - Randall County",
+			"sold": "no",
+			"discription": "Two 5.1 acre properties adjacent to each other, +/- 2 miles east of Osage on FM 1151 north side of road with whole south side on road frontage.",
+			"image": "./img/property/5.1Randall.jpg",
+			"property_ID": "017"
+		},
+		{
+			"location": "Potter_Randall",
+			"title": "Stephen's Hog Farm - 27 Acres $350,000.00",
+			"sold": "no",
+			"discription": "This property lies on the corner of North Western Street and Diaz Ranch Road North of Amarillo. This was a fully commercial Hog Farm which housed up to 351 hogs and is well suited for many different uses with all the buildings. It could be used for aquaponics, hydroponics, chickens, animals such as goats and a horse place. There are 2 wells on the property. One for the house and one with a large underground storage tank for the farm. There are no exclusions on the property.",
+			"image": "./img/property/HogFarm.jpg",
+			"property_ID": "018"
+		},
+		{
+			"location": "Baylor",
+			"title": "Seed Cleaning Business in the Texas Wheat Belt - Baylor County",
+			"sold": "no",
+			"discription": "Long time seed cleaning business in Seymour Texas is for sale. The owners started this business in the 1970s and have continually expanded and built the business. The owners do business in a 50 mile radius of their warehouse in Seymour and can handle the business with 3-6 workers. Company is now for sale of all the equipment and business.",
+			"image": "./img/property/Seymour.png",
+			"property_ID": "019"
+		},
+		{
+			"location": "Real",
+			"title": "Nueces County Smokehouse near Camp Wood, TX - Real County",
+			"sold": "no",
+			"discription": "Excellent meat processor, smokehouse, and retail store near Camp Wood, TX and the beautiful Nueces River. This business was built by the owner and finished in early 2012, and sits among beautiful trees right on the highway between Camp Wood and Uvalde to the south. The real estate is 1.88 acres with 300 feet of frontage on State Highway 55. The concrete pad is 3,755 square feet and has 2,629 square feet under refrigeration. Refrigeration sits behind the main store and the attic is floored for storage.",
+			"image": "./img/property/Real.png",
+			"property_ID": "020"
+		},
+		{
+			"location": "South_Africa",
+			"title": "Naboomspruit List# 15102302 - South Africa",
+			"sold": "no",
+			"discription": "This 255 acre ($1235 per acre) farm has it all – Water, bushveld plains, mountains and on the horizon is the portrait of the Springbokflats – a picture that changes as the season changes – fabulous!!  Here at this farm where the most spectacular sunsets are experienced. The lower part of the farm is typical Sweetveld with lots of Acacia and Maroela trees.",
+			"image": "./img/property/Naboomspruit.jpg",
+			"property_ID": "021"
+		},
+		{
+			"location": "South_Africa",
+			"title": "Bela Bela List# 15102301 - South Africa",
+			"sold": "no",
+			"discription": "This 52 acre property ($3944 per acre) is every small farm owner's dream farm. The topography is flat and is a portrait of the typical bush sweet veld. The veldt is well managed with a large selection of indigenous flora such as Acasia, Red bush willow, etc. There are 3 Houses and Bachelor flat and a Swimming Pool on the property.",
+			"image": "./img/property/Bela.jpg",
+			"property_ID": "022"
+		},
+		{
+			"location": "South_Africa",
+			"title": "Nylstroom List# 15101215 - South Africa",
+			"sold": "no",
+			"discription": "This 52 acre property ($4057 per acre​) is situated in an area with incredible views. It is the most perfect farm for any person who truly love nature and it is even a perfect lockup and go farm or retirement farm. The typographic of this property lends itself perfect towards the breeding of game. Nyala and black Impala breeding will do very well on this property.",
+			"image": "./img/property/Nylstroom.jpg",
+			"property_ID": "023"
+		},
+		{
+			"location": "South_Africa",
+			"title": "Robertson List# 1510013 - South Africa",
+			"sold": "no",
+			"discription": "This is a spectacular lifestyle & wine farm with ample water and beautifully restored homesteads situated in the scenic valley of wine & roses with majestic mountains and perennial streams all around - This stunning property is set on around 1255 acres at $773 per acre (508 hectares) with 35.76 acres (14.47 Ha) of planted vineyards, ± 47 acres grazing and offers 5 earth dams, 3 boreholes, permanent mountain water, 4 pump houses, 2 main homes - each with outside guest en-suite rooms and swimming pools, 2 guest cottages, managers cottage, 3 labourer cottages, various stores, hiking trails, bushman's cave, mountain pool and many more.",
+			"image": "./img/property/Robertson.jpg",
+			"property_ID": "024"
+		},
+		{
+			"location": "South_Africa",
+			"title": "Naboomspruit List# 1510014 - South Africa",
+			"sold": "no",
+			"discription": "This property is a mere 90 minutes drive from Pretoria, nestled at the foot of the Waterberg Mountains and the Waterberg Biosphere. The farm is developed for any person that wants to retire, weekend farmer and extremely well suitable for small game breeding projects. At 210 acres and $1076 per acre.",
+			"image": "./img/property/Naboomspruit1510014.jpg",
+			"property_ID": "025"
+		},
+		{
+			"location": "South_Africa",
+			"title": "Thabazimbi List# 1510012 - South Africa",
+			"sold": "no",
+			"discription": "This property can be described as Africa's own piece of heaven with clear star light & spectacular sunsets. The game farm is isolated from city life and is a true African game farm offering bush experience with all the luxury you would need. This is a sweetveld game ranch running currently as a both a Hunting and Game Breeding Ranch where guests enjoy the luxury and splendour of the African Bush. The property has 2,750 acres, going for $375 per acre. This property is ideal for someone who is looking for a well developed game farm with everything already in its place.",
+			"image": "./img/property/Thabazimbi.jpg",
+			"property_ID": "026"
+		},
+		{
+			"location": "South_Africa",
+			"title": "Groblersdal List# 1510011 - South Africa",
+			"sold": "no",
+			"discription": "An undeveloped portion of land situated within a 4,695 acre (1900 ha) Game Farm Estate. This 247 acre (100 ha) at $393 per acre​ full title is neatly situated in a valley surrounded by large trees and mountains in the backdrop. This jewel is situated a mere 1.5 hours drive drive from the City and huge additional development potential exists. This undeveloped portion land portrays what Africa is all about. Enjoy game drives on the whole 4,695 acre (1900 ha) Game Farm Estate and see the nature while you absorb the peace and tranquility of a hidden portion of land.",
+			"image": "./img/property/Groblersdal.jpg",
+			"property_ID": "027"
+		},
+		{
+			"location": "South_Africa",
+			"title": "Roedtan List# 1411212 - South Africa",
+			"sold": "no",
+			"discription": "This farm can perfectly be described as “WOW” . It is perfect for any type of game farming - breeding, hunting, retirement, etc. This property has 2,907 acres, $590 per acre. This farm is beautifully developed and is fully game fenced. Game freely roams all over the property and you can just imagine yourself on your farm where the adventure of each day is so fulfilling and at dusk when you retire to your lodge for the evening after a long day on your own game farm, a BBQ around the camp fire is better than anything else.",
+			"image": "./img/property/Roedtan.jpg",
+			"property_ID": "028"
+		},
+		{
+			"location": "South_Africa",
+			"title": "Naboomspruit List# 1411213 - South Africa",
+			"sold": "no",
+			"discription": "This game farm is situated within the MOST  desired area of the Waterberg. This property has 2,607 acres, $760 per acre. A mere 175km from Pretoria and yet far enough to escape the rat race. The endless potential that this farm offers is overwhelming while the endless plains and the silent of nature paints a perfect picture of Africa as the mountains on the horizon rises up towards heaven. This is not just a game farm, this is a dream...and this dream can come true for the person who knows what he wants.",
+			"image": "./img/property/Naboomspruit1411213.jpg",
+			"property_ID": "029"
+		},
+		{
+			"location": "South_Africa",
+			"title": "Kruger National Park List# 1411242 - South Africa",
+			"sold": "no",
+			"discription": "This 1246 ha portion of Big 5 property is a private wildlife reserve located in the Balule reserve, in the South African Lowveld. It is a big 5 reserve, adjoining and open to the Klaserie game reserve and the bigger Kruger National Park. This exclusive and privately owned reserve is an undeveloped reserve and is home to the undisturbed natural beauty and wildlife of the Lowveld. This wildlife reserve is 1246 hectares in size and borders the Olifants River. . .This is the last portion of land open to the Kruger National Park that is for sale. It is an opportunity NOT TO BE MISSED.",
+			"image": "./img/property/Kruger.jpg",
+			"property_ID": "030"
+		},
+		{
+			"location": "South_Africa",
+			"title": "Naboomspruit List# 1411245 - South Africa",
+			"sold": "no",
+			"discription": "In the heart of the Waterberg is a Jewel for any person who love nature, animals, and love to feel freedom. This 4,572, $640 per acre, 1829 ha Private Game Farm has typical lock up and goinfrastructure, providing an effortless turnkey operation for anyone wishing to own this jewel. This private game farm is also suitable for breeding, Eco-tourism which could form part of the current game farm operation. This property has waterfalls, huge cliffs, fantastic plato’s, plains and tame game.",
+			"image": "./img/property/Naboomspruit1411245.jpg",
+			"property_ID": "031"
+		},
+		{
+			"location": "South_Africa",
+			"title": "Thabazimbi List# 1411246 - South Africa",
+			"sold": "no",
+			"discription": "This property has 3,052 acres, $819 per acre. This beautiful commercial Game farm and Lodge is well established and has a Superior rating by AA Travel and have achieved a 4 Star grading from the S.A. Tourism Grading Council. It is a profitable game lodge to be sold as a going concern. Added to this lifestyle lodge, is the game farm itself - an excellent balance between grass Savannah plains and the sweetveld bush areas. The Thabazimbi mountain range forms the horizon of the farm.... a picture perfect portrait of Africa.",
+			"image": "./img/property/Thabazimbi1411246.jpg",
+			"property_ID": "032"
+		},
+		{
+			"location": "South_Africa",
+			"title": "Mkuzi Big 5 Game Reserve - 4135 Acres - Property 13/0003 - South Africa",
+			"sold": "no",
+			"discription": "This property lays totally within the perimeter of the Mkuzi Big 5 Game Reserve. Needless to say that all of the Big 5 animals are on this property. It has always been the dream of every nature lover to be able to say that they own a piece of land and all the Big 5 animals are on it. There are also many more other animals on this property almost too many to list.",
+			"image": "./img/property/Mkuzi.jpg",
+			"property_ID": "033"
+		},
+		{
+			"location": "South_Africa",
+			"title": "Mkuzi Big 5 Game Reserve - 3405 Acres - Property 13/0004 - South Africa",
+			"sold": "no",
+			"discription": "This property lays totally within the perimeter of the Mkuzi Big 5 Game Reserve. Needless to say that all of the Big 5 animals are on this property. Dream of owning your own piece of Africa and have all the Big 5 on it and many more other animals and being able to hunt at your own leisure without the schedule of a short hunting season.",
+			"image": "./img/property/Mkuzi0004.jpg",
+			"property_ID": "034"
+		},
+		{
+			"location": "South_Africa",
+			"title": "Mkuzi Big 5 Game Reserve - 2480 Acres - Property 13/0005 - South Africa",
+			"sold": "no",
+			"discription": "This property lays totally within the perimeter of the Mkuzi Big 5 Game Reserve. Too much to believe that you could own a piece of land right smack in the middle of the Mkuzi Game Reserve with all the Big 5 animals on it, not to mention the exhaustive list of other animals. Hunt at your leisure on your own land and have your trophies shipped.",
+			"image": "./img/property/Mkuzi0005.jpg",
+			"property_ID": "035"
+		},
+		{
+			"location": "South_Africa",
+			"title": "Mkuzi area - 4047 Acres - Property 13/0006 - South Africa",
+			"sold": "no",
+			"discription": "This property is in the Mkuzi area and has a wonderful Lodge on it and is very well stocked with the natural animals to the area and also has introduced animals such as giraffe, wildebeest, waterbuck, and zebra. The roads on this property are very good and it is well game fenced. A good house of 2556 sq feet and all the required out buildings. There is also labor quarters and this property also has a “Bush Camp”.",
+			"image": "./img/property/Mkuzi0006.jpg",
+			"property_ID": "036"
+		},
+		{
+			"location": "South_Africa",
+			"title": "Mkuzi area - 2527 Acres - Property 13/0007 - South Africa",
+			"sold": "no",
+			"discription": "This property is in the sought after Mkuzi area and is has all the natural game of the area on it. It does have 3 of the Big 5 animals on it. (leopard, buffalo and rhino) It has a well equipped Lodge on it and is a well known place. The Lodge main building has four chalets (14 beds) with it ,a “Lapa” (luxury entertainment area) swimming pool and all one needs to go with a good experience. Situated next to the Phinda Private Game Reserve and close to the Mkuze Zululand Rhino Reserve and the Thanda and Hluhluwe / Mfolozi Game Reserve. These are all Big 5 Game Reserves and this helps to make this a sought after area.",
+			"image": "./img/property/Mkuzi0007.jpg",
+			"property_ID": "037"
+		},
+		{
+			"location": "South_Africa",
+			"title": "Next to the Ithala Game Reserve - 2600 Acres - Property 13/0008 - South Africa",
+			"sold": "no",
+			"discription": "This property is located next to the Ithala Game Reserve and is well stocked with the local game of the area. It is game fenced on two sides. A little small investment to complete fencing could make this a whole lot more Game productive and attractive.",
+			"image": "./img/property/Ithala.jpg",
+			"property_ID": "038"
+		},
+		{
+			"location": "South_Africa",
+			"title": "Off of the main N2 - 1120 Acres - Property 13/0009 - South Africa",
+			"sold": "no",
+			"discription": "On N2 This property is right off of the main N2 and next to the Zululand Rhino Reserve. Well stocked with all the local natural game. There are no buildings on this property.",
+			"image": "./img/property/N2.jpg",
+			"property_ID": "039"
+		},
+		{
+			"location": "South_Africa",
+			"title": "Chamanzi Wilderness Park - 8500 Acres - Property 13/0010 - South Africa",
+			"sold": "no",
+			"discription": "This is a collective name for property belonging to four companies. Located in the Chamanzi Wilderness Park, this property is very well fenced with high quality game grade fence. The property has a top quality Lodge and an exhaustive list of housing options and facilities; to many to mention. A swimming pool and a viewing deck overlooking the Chamanzi stream and an Lapa associated with luxury entertainment at the pool and deck. It has a landing strip of +/- 3000 feet for light airplanes. The Chamanzi stream runs for .5 miles through the property where the buildings and Lodge area is. The Mkuze River runs for about 2.5 miles through the property and between this abundance of water and all the ponds and dams on the place it has water to dream for. There are grass land plateaus, peaks, slopes,gorges and water from slow moving to rapids for fishing and swimming. This is truly an outstanding investment and property to add to your portfolio.",
+			"image": "./img/property/Chamanzi.jpg",
+			"property_ID": "040"
+		},
+		{
+			"location": "South_Africa",
+			"title": "On the N2 main road - 2702 Acres - Property 13/0011 - South Africa",
+			"sold": "no",
+			"discription": "Situated on the N2 main road near the Zululand Rhino Reserve. This property is totally boundary fenced and electrified. Very well stocked with local natural game including buffalo, giraffe, zebra and a whole list more. There are two modern lodges on this property with the sleeping capacity of 95 people. There are also two “Lapa’s” ( luxury entertainment areas) 2 swimming pools and all the amenities needed to make it unforgetfull. This is truly a unique chance to invest in a property that will keep the guests coming back again and again while it affords the owner to hunt and also to have a substantial income.",
+			"image": "./img/property/N20011.jpg",
+			"property_ID": "041"
+		},
+		{
+			"location": "South_Africa",
+			"title": "Inside Big 5 ZRR - 1025 Acres - Property 13/0012 - South Africa",
+			"sold": "no",
+			"discription": "This property is situated inside (surrounded by) the Big 5 ZRR. That makes it a Big 5 Game Park and has a 12 bed Lodge on it with all that goes with it.",
+			"image": "./img/property/ZRR.jpg",
+			"property_ID": "042"
+		},
+		{
+			"location": "South_Africa",
+			"title": "Big 5 animal property - 25000 Acres - Property 13/0014 - South Africa",
+			"sold": "no",
+			"discription": "This is a Big 5 animal property in the Big Five ZRR. Lodges and all that go with it in a very exceptional deal of the century. Info on this property will only be made available to proven buyers.",
+			"image": "./img/property/Big0014.jpg",
+			"property_ID": "043"
+		},
+		{
+			"location": "Namibia",
+			"title": "Erindi Game Reserve - Namibia",
+			"sold": "no",
+			"discription": "This Private Game Reserve is unique in Southern Africa and perhaps even in the world. Reclaimed as part of a massive rehabilitation and conservation venture, the reserve is a treasure chest of naturally occurring Namibian wildlife and plant life. Systems instituted since 1998 have ensured the recovery of the ecological balance between vegetation, herbivores and predators, while careful management ensures that the numbers and diversity of species leads to sustainable land utilization and benefits for all in the area.",
+			"image": "./img/property/Erindi.jpg",
+			"property_ID": "044"
+		},
+		{
+			"location": "Botswana",
+			"title": "Game Farm with a 9 hole Golf course - 1988ha - Botswana",
+			"sold": "no",
+			"discription": "This beautiful Game Farm consists rolling topography with perennial river that is flowing through the farm. Rocky outcrops creating elevated koppies with the most beautiful sceneries. Open planes with good pastures that insure you of a well-balanced bushveld farms. Mixed veldt that differs from sandveld sour grazing to a red sand loam with sweet grazing. Indisputably, this farm is one of the best farms in the Francistown area of Botswana.",
+			"image": "./img/property/Botswana.jpg",
+			"property_ID": "045"
+		},
+		{
+			"location": "Botswana",
+			"title": "Botswana List# B14121241B",
+			"sold": "no",
+			"discription": "This property has 37,500 acres, $95 per acre. The Lodge is an oasis in the Kalahari of Botswana, a luxury lodge close to the famous Okavango Delta.  Here you can experience the Kalahari with Bushman at hand, to share their knowledge, while you can relax in total luxury at this unique destination.  Your guests at your lodge can Combine their visit of the Kalahari with the well-known area of the Okavango Delta to the north and the famous Victoria Falls.",
+			"image": "./img/property/B1411241B.jpg",
+			"property_ID": "046"
+		},
+		{
+			"location": "Botswana",
+			"title": "Botswana List# B1411242B",
+			"sold": "no",
+			"discription": "This property has 10,750 acres, $225 per acre. This beautiful Safaris Game Lodge in Botswana is truly magnificent and has exceptional developments that embraces nature. The rustic lodge with accommodation for ±30 people, which will be sold as a going concern, is overlooking the Limpopo river which do have some hippo, crocodiles, fish and prolific bird life. This is a portion of Africa that any investor would be proud of. ",
+			"image": "./img/property/B1411242B.jpg",
+			"property_ID": "047"
+		},
+		{
+			"location": "Zambia",
+			"title": "Zambia List# Z141124Z",
+			"sold": "no",
+			"discription": "This Game Lodge is built on a hill overlooking the Zambezi River. It is situated in a privately owned Game Ranch which is fully fenced. This property has the potential to be run as a commercial business. The property is 7,660 acres, $180 per acre (3100 hectares) in size with approximately 30km of game fencing (2.5 metre tall with 17 strands of 2.24 mm high tensile fencing wire), including 5 km of Zambezi River frontage. This region of the river is known to fishermen as the ‘Tiger Mile’.",
+			"image": "./img/property/Zambia.jpg",
+			"property_ID": "048"
+		}
+
+	]
+}
