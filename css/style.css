@@ -182,7 +182,7 @@ input:-webkit-autofill:focus {
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 3px;
-    margin-top: 26px;
+    margin-top: 18px;
     /*text-transform: capitalize;*/
     -webkit-transition: all 0.4s ease-in-out 0s;
     transition: all 0.4s ease-in-out 0s;
@@ -202,6 +202,8 @@ input:-webkit-autofill:focus {
 }
 .main-menu ul.navbar-nav {
     float: right;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 .main-menu ul.nav.navbar-nav li.active {
     position: relative;
@@ -209,8 +211,8 @@ input:-webkit-autofill:focus {
 .main-menu ul.navbar-nav li a {
     color: #ffffff;
     font-weight: 500;
-    font-size: 20px;
-    padding: 30px 13px;
+    font-size: 18px;
+    padding: 5px 13px 5px 13px;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
     position: relative;
@@ -229,7 +231,7 @@ input:-webkit-autofill:focus {
 }
 .custom-navbar.top-nav-collapse .main-menu ul.navbar-nav li a {
     color: #000;
-    padding: 30px 13px 22px 13px;
+    padding: 5px 13px 5px 13px;
 }
 .custom-navbar.top-nav-collapse .main-menu ul.nav.navbar-nav li.active a {
     color: #888;
@@ -248,18 +250,30 @@ input:-webkit-autofill:focus {
              4 MULTIPLE LANGUAGE BUTTON
 ==================================================*/
 .multi-lang {
-    position: absolute;
+    position: relative;
     top:20px;
     right:20px;
     vertical-align: middle;
     z-index: 999999;
+}
+.ml-text {
+    text-align: center;
+}
+.ml-text p {
+    font-size: 32px;
+}
+.ml-text h2 {
+    font-size: 45px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    font-weight: 900;
 }
 .btn.ml-btn{
     background-color: #fff;
     border: 2px solid transparent;
     color: #222;
     margin-top: 0px;
-    font-size: 16px;
+    font-size: 26px;
 }
 .btn.ml-btn:hover{
     border: 2px solid #fff;
@@ -305,8 +319,23 @@ input:-webkit-autofill:focus {
     font-size: 46px;
     color: #fff;
 }
+.welcome-text img {
+    margin-bottom: 20px;
+}
 .welcome-text h1 {
     font-size: 66px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.welcome-text h2 {
+    font-size: 56px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.welcome-text h3 {
+    font-size: 46px;
     font-weight: 800;
     margin-bottom: 20px;
     color: #fff;
@@ -330,7 +359,7 @@ input:-webkit-autofill:focus {
 ==================================================*/
 
 .about-text {
-    text-align: justify;
+    text-align: left;
 }
 .about-text h4 {
 	font-size: 20px;
@@ -379,7 +408,9 @@ input:-webkit-autofill:focus {
     line-height: 28px;
     /*font-weight: 400;*/
  }
-
+.team-avatar {
+    margin-top: 20px;
+}
 
  
 
@@ -421,7 +452,7 @@ ul.property-list li:hover, ul.property-list li.active{
 
 .single-property {
     position: relative;
-    margin: 0 auto 10px 30px;
+    margin: 0 auto 10px auto;
     font-size: 20px;
     color: #333;
     font-weight: 600;
@@ -519,7 +550,8 @@ ul.property-list li:hover, ul.property-list li.active{
 }
 .modal.modal-wide .modal-dialog {
   width: 90%;
-  max-height: 90%;
+  margin-left: 5%;
+  /*max-height: 90%;*/
 }
 .modal-wide .modal-body {
   overflow-y: auto;
@@ -633,6 +665,12 @@ ul.two-column {
     font-weight: normal;
 }
 
+/*================================================
+             Hunting SECTION
+==================================================*/
+.hunting-area {
+    background-color: #f7f7f7;
+ }
  /*================================================
             10 CONTACT INFO SECTION
 ==================================================*/

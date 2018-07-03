@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!--== bootstrap ==-->
+    <link href="../css/lib/bootstrap.min.css" rel="stylesheet">
+    <!--== style css ==-->
+    <link href="../css/style.css" rel="stylesheet">
+    <!--== carousel css ==-->
+    <link href="../css/lib/owl.carousel.min.css" rel="stylesheet" >
+    <link href="../css/lib/owl.theme.default.min.css" rel="stylesheet" >
+
+    <script src="../js/lib/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="../js/lib/owl.carousel.min.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+    <div class="container" id="content">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <h2>Land for sale near Matador</h2>
+                <hr>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="owl-carousel owl-theme">
+
+                    <div class="item"><img src="../img/property/Motley-01/pic (1).jpg" alt="Property Image"></div>
+
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <p>County Rd 222, Matador, TX, Motley County - <a href="https://goo.gl/maps/vcajqjaJ8By" target="_blank">Find it on Google map</a></p>
+                <h4>$843,750 - 675 Acres</h4>
+                <hr>
+                <p>This 675 acre property is a rear opportunity as it is very well suited to cattle and also a hunters dream. Well fenced and does have some cropland which has been fallowed for the past year. There are 3 very large ponds on this property of which one is spring fed and does not go dry and is also the largest. Fishing takes place by way of a boat on it. There is a 1 bedroom cabin on this property and a very good set of cattle corrals with a cattle scale and a barn. With the spring fed pond this is the big attraction to wildlife in the area and they come from a big area to water at this pond. 25% Minerals sell with this property or could be negotiated.</p>
+                <hr>
+                <h3>Property Features</h3>
+                <ul>
+                    <li>Half crop land and half native pasture with spring fed pond </li>
+                    <li>Very consistent</li>
+                    <li>Three additional ponds, one is seasonal</li>
+                    <li>Minerals: 25% based on offer</li>
+                    <li>Good fencing with cattle corrals, scale, bunk house and barn</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+       $('.owl-carousel').owlCarousel({
+            margin: 10,
+            loop: true,
+            autoplay:true,
+            autoplayTimeout:2000,
+            autoplayHoverPause:true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>
