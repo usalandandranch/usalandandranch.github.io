@@ -550,11 +550,17 @@ ul.property-list li:hover, ul.property-list li.active{
 }
 .modal.modal-wide .modal-dialog {
   width: 90%;
-  margin-left: 5%;
-  /*max-height: 90%;*/
+/*  margin-left: 5%;*/
+
 }
-.modal-wide .modal-body {
-  overflow-y: auto;
+.modal-dialog {
+    overflow-y: initial;
+}
+.modal-body {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+    max-width: 100%;
+    overflow-x: initial;
 }
 
 
