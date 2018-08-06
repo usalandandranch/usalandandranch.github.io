@@ -211,7 +211,7 @@ input:-webkit-autofill:focus {
 .main-menu ul.navbar-nav li a {
     color: #ffffff;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
     padding: 5px 13px 5px 13px;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
@@ -672,10 +672,16 @@ ul.two-column {
 }
 
 /*================================================
+             Solar SECTION
+==================================================*/
+.solar-area {
+    background-color: #f7f7f7;
+ }
+/*================================================
              Hunting SECTION
 ==================================================*/
 .hunting-area {
-    background-color: #f7f7f7;
+    /*background-color: #f7f7f7;*/
  }
  /*================================================
             10 CONTACT INFO SECTION
@@ -685,6 +691,7 @@ ul.two-column {
 } 
 
 .contact-info-area {
+    background-color: #f7f7f7;
 
  }
 
@@ -698,7 +705,7 @@ ul.two-column {
      box-shadow: none !important;
      border: none;
      border-radius: 0;
-     background: #f5f5f5;
+     background: #ffffff;
      border-radius: 5px;
  }
  textarea.form-control {
