@@ -31,7 +31,7 @@ NOTE: This is the custom jQuery file for website.
           $('a.smooth-scroll').on('click', function(event) {
             var $anchor = $(this);
             $('html, body').stop().animate({
-                scrollTop: $($anchor.attr('href')).offset().top - 0
+                scrollTop: $($anchor.attr('href')).offset().top - 80
             }, 1000);
             event.preventDefault();
           });
@@ -43,7 +43,7 @@ NOTE: This is the custom jQuery file for website.
         $('body').scrollspy({
 
             target : ".main-menu",
-            offset : 50
+            offset : 100
 
         });
 
@@ -81,7 +81,7 @@ NOTE: This is the custom jQuery file for website.
 
         $(function() {
             element.typed({
-                strings: ["Buy.","Sell.","Serve.","Help."],
+                strings: ["您想在美国购买地产吗？","您想在美国购买农场吗？","您想在南非购买地产吗？","我们可以帮您！"],
                 typeSpeed: 100,
                 loop: true,
             });
@@ -110,7 +110,7 @@ NOTE: This is the custom jQuery file for website.
         $('.property-inner').mixItUp();
         $.ajax({
             type: "GET",
-            url:"../includes/property.json",
+            url:"../includes/property_cn.json",
             mimeType: "application/json",
             success: function(data){
                 var bookTemplate = $("#propertyStore").html();
@@ -136,7 +136,7 @@ NOTE: This is the custom jQuery file for website.
     //     return na[1]+" "+na[0];
     // });
 
-        Handlebars.registerHelper('compare', function(lvalue, rvalue, options) {
+    Handlebars.registerHelper('compare', function(lvalue, rvalue, options) {
 
     if (arguments.length < 3)
         throw new Error("Handlerbars Helper 'compare' needs 2 parameters");
@@ -167,31 +167,8 @@ NOTE: This is the custom jQuery file for website.
 
 });        
 
-        /*===================================
-            owl carousel testimonial
-     ====================================*/
-        $(".testimonial-list").owlCarousel({
-            loop:true,
-            margin:30,
-        nav:false,
-        dots:true,
-        autoplay:true,
-        autoplayHoverPause:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:2
-            },
-            1000:{
-                items:3
-            }
-        }
-    });
 
-
-    });
+});
 
 /*=============================
         Preloder
