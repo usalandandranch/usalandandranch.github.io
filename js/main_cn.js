@@ -9,6 +9,13 @@ NOTE: This is the custom jQuery file for website.
 
     jQuery(document).ready(function($){
 
+        /*=============================
+                Preloder
+        ==============================*/
+        $('.spinner').fadeOut(1000);
+        $('.preloader').delay(350).fadeOut(500);
+        $('body').delay(350).css({'overflow':'visible'});
+
     /*=============================
                 Sticky header
     ==============================*/
@@ -169,24 +176,6 @@ NOTE: This is the custom jQuery file for website.
 
 
 });
-
-/*=============================
-        Preloder
-==============================*/
-    $(window).on('load', function(){
-        $('.spinner').fadeOut();
-        $('.preloader').delay(350).fadeOut(500);
-        $('body').delay(350).css({'overflow':'visible'});
-
-        });
-/*=============================
-        Large Modal
-==============================*/
-    $(".modal-wide").on("show.bs.modal", function() {
-        var height = $(window).height() - 200;
-        $(this).find(".modal-body").css("max-height", height);
-    });
-
 
 
 

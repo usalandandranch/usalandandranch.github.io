@@ -60,7 +60,7 @@
 			"location": "德克萨斯州Ennis市",
 			"sold": "no",
 			"discription": "Ennis wharehouse Park is a investers dream. All the buildings are rented out and always in demand. Only 30 minutes south of Dallas and near major highways for easy access. Double bay doors and all buildings are piped for fire sprinkler surpression. Food grade buildings. Load leveling docks and large parking area. Commercial gas heaters. Total area under roof 233,422 sq feet.",
-			"image": "./img/property/Ennis.png",
+			"image": "./img/property/Ennis.jpg",
 			"property_ID": "Ellis-01"
 		},
 		{
@@ -78,7 +78,7 @@
 			"location": "德克萨斯州Quanah市",
 			"sold": "no",
 			"discription": "A 160 acre property close to town with all the needs on it to run cattle, keep horses and a little get away. Very well fenced and has a set of cattle corrals on it. With a storage facility. South side of Cr 104 on the paved road. Can also hunt on it and does have some additional income possibilities other than ag related.",
-			"image": "./img/property/160Quanah.png",
+			"image": "./img/property/160Quanah.jpg",
 			"property_ID": "Hardeman-02"
 		},
 		{
@@ -87,7 +87,7 @@
 			"location": "德克萨斯州Quanah市",
 			"sold": "no",
 			"discription": "Totally remodeled house, 2b/2b with all the upgrades to dream for. 2 Car garage and garden fitted with sprinkler system. This is a rare opportunity to find in Quanah Texas. This will not be available long and is a good house to live in or even as a investment property to rent out.",
-			"image": "./img/property/HouseQuanah.png",
+			"image": "./img/property/HouseQuanah.jpg",
 			"property_ID": "Hardeman-01"
 		},
 		{
@@ -105,7 +105,7 @@
 			"location": "德克萨斯州Matador市",
 			"sold": "no",
 			"discription": "This 675 acre property is a rear opportunity as it is very well suited to cattle and also a hunters dream. Well fenced and does have some cropland which has been fallowed for the past year. There are 3 very large ponds on this property of which one is spring fed and does not go dry and is also the largest. Fishing takes place by way of a boat on it. There is a 1 bedroom cabin on this property and a very good set of cattle corrals with a cattle scale and a barn. With the spring fed pond this is the big attraction to wildlife in the area and they come from a big area to water at this pond. 25% Minerals sell with this property or could be negotiated.",
-			"image": "./img/property/675Matador.png",
+			"image": "./img/property/675Matador.jpg",
 			"property_ID": "Motley-01"
 		},
 		{
@@ -168,7 +168,7 @@
 			"location": "德克萨斯州Seymour市",
 			"sold": "no",
 			"discription": "Long time seed cleaning business in Seymour Texas is for sale. The owners started this business in the 1970s and have continually expanded and built the business. The owners do business in a 50 mile radius of their warehouse in Seymour and can handle the business with 3-6 workers. Company is now for sale of all the equipment and business.",
-			"image": "./img/property/Seymour.png",
+			"image": "./img/property/Seymour.jpg",
 			"property_ID": "Baylor-01"
 		},
 		{
@@ -177,7 +177,7 @@
 			"location": "德克萨斯州Camp Wood市",
 			"sold": "no",
 			"discription": "Excellent meat processor, smokehouse, and retail store near Camp Wood, TX and the beautiful Nueces River. This business was built by the owner and finished in early 2012, and sits among beautiful trees right on the highway between Camp Wood and Uvalde to the south. The real estate is 1.88 acres with 300 feet of frontage on State Highway 55. The concrete pad is 3,755 square feet and has 2,629 square feet under refrigeration. Refrigeration sits behind the main store and the attic is floored for storage.",
-			"image": "./img/property/Real.png",
+			"image": "./img/property/Real.jpg",
 			"property_ID": "Real-01"
 		},
 		{
