@@ -51,7 +51,7 @@
 		{
 			"location": "Ellis",
 			"title": "Commercial Buildings for Sale in Ennis, Texas - Ellis County",
-			"sold": "no",
+			"sold": "yes",
 			"discription": "Ennis wharehouse Park is a investers dream. All the buildings are rented out and always in demand. Only 30 minutes south of Dallas and near major highways for easy access. Double bay doors and all buildings are piped for fire sprinkler surpression. Food grade buildings. Load leveling docks and large parking area. Commercial gas heaters. Total area under roof 233,422 sq feet.",
 			"image": "./img/property/Ennis.jpg",
 			"property_ID": "Ellis-01"
@@ -91,7 +91,7 @@
 		{
 			"location": "Motley",
 			"title": "675 Acres for Sale Matador, TX - Motley County",
-			"sold": "no",
+			"sold": "yes",
 			"discription": "This 675 acre property is a rear opportunity as it is very well suited to cattle and also a hunters dream. Well fenced and does have some cropland which has been fallowed for the past year. There are 3 very large ponds on this property of which one is spring fed and does not go dry and is also the largest. Fishing takes place by way of a boat on it. There is a 1 bedroom cabin on this property and a very good set of cattle corrals with a cattle scale and a barn. With the spring fed pond this is the big attraction to wildlife in the area and they come from a big area to water at this pond. 25% Minerals sell with this property or could be negotiated.",
 			"image": "./img/property/675Matador.jpg",
 			"property_ID": "Motley-01"
@@ -123,7 +123,7 @@
 		{
 			"location": "Potter_Randall",
 			"title": "5.74 Acres for Sale Amarillo, TX - Potter County",
-			"sold": "no",
+			"sold": "yes",
 			"discription": "This 5.74 acre property is in a great location with easy access to the city and country.",
 			"image": "./img/property/5.74Potter.jpg",
 			"property_ID": "Potter_Randall-03"
