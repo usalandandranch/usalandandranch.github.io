@@ -9,14 +9,6 @@
 			"property_ID": "Hutchinson-01"
 		},
 		{
-			"location": "Randall",
-			"title": "Convenience Store in Amarillo, Texas - Randall County",
-			"status": "selling",
-			"discription": "This is a Beer Store and Convenience Store selling Beer & Wine on a very busy intersection serving Lake Tanglewood, Palisades, RanchAcres South, Richland Acres, Timber Creek Canyon, Tangleair Estates, River Falls and all traffic to Claude on the Claude Highway. This business has ceased operation due to owners health. He still has his license while buyer applies for a new License in new name. Cold room and equipment all functional. This property could also be bought with 25% down, seller financing at 6% interest payable with small principal payment, balance payable at the end of 5 years. There is a new Ice & Water Still about to go in and the income out of that will be for the benefit of the new owner. This business could also be rented.",
-			"image": "./img/property/CountryCorner.jpg",
-			"property_ID": "Potter_Randall-07"
-		},
-		{
 			"location": "Cottle",
 			"title": "320 Acres for Sale near Paducah, Texas - Cottle County",
 			"status": "sold",
@@ -103,6 +95,14 @@
 			"discription": "This 675 acre property is a rare opportunity as it is very well suited to cattle and also a hunters dream. Well fenced and does have some cropland which has been fallowed for the past year. There are 3 very large ponds on this property of which one is spring fed and does not go dry and is also the largest. Fishing takes place by way of a boat on it. There is a 1 bedroom cabin on this property and a very good set of cattle corrals with a cattle scale and a barn. With the spring fed pond this is the big attraction to wildlife in the area and they come from a big area to water at this pond. 25% Minerals sell with this property or could be negotiated.",
 			"image": "./img/property/675Matador.jpg",
 			"property_ID": "Motley-01"
+		},
+		{
+			"location": "Potter_Randall",
+			"title": "Convenience Store in Amarillo, Texas - Randall County",
+			"status": "selling",
+			"discription": "This is a Beer Store and Convenience Store selling Beer & Wine on a very busy intersection serving Lake Tanglewood, Palisades, RanchAcres South, Richland Acres, Timber Creek Canyon, Tangleair Estates, River Falls and all traffic to Claude on the Claude Highway. This business has ceased operation due to owners health. He still has his license while buyer applies for a new License in new name. Cold room and equipment all functional. This property could also be bought with 25% down, seller financing at 6% interest payable with small principal payment, balance payable at the end of 5 years. There is a new Ice & Water Still about to go in and the income out of that will be for the benefit of the new owner. This business could also be rented.",
+			"image": "./img/property/CountryCorner.jpg",
+			"property_ID": "Potter_Randall-07"
 		},
 		{
 			"location": "Potter_Randall",
