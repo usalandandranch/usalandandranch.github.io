@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="This is the website of USA Land and Ranch, LLC">
+	<meta name="keywords" content="USA Land, Ranch, Realty, Buy Land, Sell Land, Buy Ranch, Sell Ranch, Dirk">
+	<meta name="author" content="Yong Yang">
+
+	<title>USA Land and Ranch, LLC</title>
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="../img/Logo3.png" type="image/jpg">
+
+	<!--== bootstrap ==-->
+	<link href="../css/lib/bootstrap.min.css" rel="stylesheet">
+
+    <!--== style css ==-->
+    <link href="../css/style.css" rel="stylesheet">
+
+	<!--== responsive css ==-->
+	<link href="../css/lib/responsive.css" rel="stylesheet">
+
+    <!--== carousel css ==-->
+    <link href="../css/lib/owl.carousel.min.css" rel="stylesheet" >
+    <link href="../css/lib/owl.theme.default.min.css" rel="stylesheet" >
+    
+	<!--== jQuery ==-->
+	<script src="../js/lib/jquery-2.1.4.min.js"></script>
+
+	<!--== plugins js ==-->
+	<script src="../js/lib/plugins.min.js"></script>
+
+	<!--== typed js ==-->
+	<script src="../js/lib/typed.js"></script>
+
+	<!--== stellar js ==-->
+	<script src="../js/lib/jquery.stellar.min.js"></script>
+
+	<!--== counterup js ==-->
+	<script src="../js/lib/jquery.counterup.js"></script>
+
+	<!--== mixitup js ==-->
+	<script src="../js/lib/jquery.mixitup.js"></script>
+
+	<!--== fontawesome js ==-->
+	<script src="../js/lib/fontawesome-all.min.js"></script>
+
+    <!--== owl carousel js ==-->
+    <script src="../js/lib/owl.carousel.min.js" type="text/javascript"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.0/handlebars.min.js"></script>
+
+	<script type="text/javascript">
+
+		function myFunction(i){
+			var id='#'+i;
+			var file=i+'.html #content';
+			$(id).load(file, function () {
+                $('.owl-carousel').owlCarousel({
+                margin: 10,
+                loop: true,
+                autoplay:true,
+                autoplayTimeout:2000,
+                autoplayHoverPause:true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+                });        		
+			});           
+        }
+    </script>
+
+    </head>
+
+
+    <body>
+
+
+
+    	<!--===== HEADER AREA =====-->
+    	<header class="navbar custom-navbar navbar-fixed-top top-nav-collapse">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-3 col-sm-5 col-xs-12">
+    					<div class="logo">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-8 col-xs-10">
+                                    <a href="..">USA Land and Ranch, LLC</a> <!--== logo ==-->
+                                </div>
+                                <div class="col-md-12 col-sm-4 col-xs-2">
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+    				<div class="col-md-9 col-sm-7 col-xs-12">
+    					<nav class="main-menu">
+    						<div class="navbar-collapse collapse">
+    							<ul class="nav navbar-nav"> <!--== main menu ==-->
+    								<li class="active"><a class="smooth-scroll theme-color" href="index.html">Home</a></li>
+                                    <li><a class="smooth-scroll" href="about.html">About Us</a></li>
+                                    <li><a class="smooth-scroll" href="team.html">Our Team</a></li>
+    								<li><a class="smooth-scroll" href="ourlistings.html">Our Listings</a></li>
+    								<li><a class="smooth-scroll" href="available.html">Available Listings</a></li>
+    								<li><a class="smooth-scroll" href="consulting.html">Consulting</a></li>
+                                    <li><a class="smooth-scroll" href="auctions.html">Auctions</a></li>
+                                    <li><a class="smooth-scroll" href="solar.html">Solar</a></li>
+                                    <li><a class="smooth-scroll" href="hunting.html">Hunting</a></li>
+                                    <li><a class="smooth-scroll" href="forms.html">Forms</a></li>
+    								<li><a id="contact-in-menu" class="smooth-scroll" href="contact.html">Contact</a></li>
+
+    							</ul>
+    						</div>
+    					</nav>
+    				</div>
+    			</div><!--/.row-->
+
+    		</div><!--/.container-->
+    	</header>
+    	<!--===== END HEADER AREA ======-->
+
+        <!--===== Each section here ====-->
+        <!--===== TEAM AREA =====-->
+        <div id="team" class="team-area section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="section-title">
+                            <h2>Meet our team.</h2>
+                        </div>
+                    </div>
+                </div><!--/.row-->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-4">
+                        <div class="thumbnail team-avatar">
+                            <img src="../img/Dirk.jpg">
+                            <div class="caption">
+                                <h4>Dirk van Reenen Sr.</h4>
+                                <p>​Realty: 806-346-3583</p>
+                                <p>Auctions: 806-730-6024</p>
+                                <p>Email:  dirk@usalandandranch.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-8">
+                        <div class="about-text">
+                            <h4>Dirk van Reenen Sr.</h4>
+                            <p>After completion of Agricultural school and military duty in South Africa Dirk went and worked on a kibbutz in Israel at Ayellet Hashagar. He travelled Europe and briefly worked in England then worked in Minnesota, US. Returning to SA, Dirk farmed and ranched for 20 years before relocating to Texas.</p>
+                            <p>Dirk managed a farming operation, fertilizer and chemical application business, and grain elevator for four years at which time he then became the General Manager to Bowen Ranches of Texas for 14 years.</p>
+                            <p>During his time in this position it was one of his functions to locate and purchase good properties with potential and then remodel the properties for full production before sale.</p>
+                            <p>Dirk began working with Caprock Realty of Amarillo in 2013 and currently broker with AG Broker Ltd in Amarillo, Texas.</p>
+                            <p>"I am proud to be representing many fine properties on behalf of the sellers and also being able to represent many buyers to locate the exact property that they are wanting to buy. I look forward to be given the chance to be of service to any seller and buyer."</p>
+                        </div>
+                    </div>
+                    
+                </div> <!--/.row-->
+                <hr>
+                
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-4">
+                        <div class="thumbnail team-avatar">
+                            <img src="../img/kim.jpg">
+                            <div class="caption">
+                                <h4>Kim Kraaier</h4>
+                                <p>​Ph.: 806-337-0712</p>
+                                <p>Email: kim@usalandandranch.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-8">
+                        <div class="about-text">
+                            <h4>Kim Kraaier</h4>
+                            <p>Kim has recently joined the USA Land and Ranch team as the Office Manager.  Her professional experience has included working for Fortune 500 enterprises, start-up companies, public and private entities and everything in between.  Her expertise lies in business and operations management with a focus in accounting, finance, compliance, systems implementation, software migration, process improvement and business growth acceleration.</p>
+                            <p>Kim has been in the Amarillo area for three years, originally hailing from Colorado.  Her passion lies in lifelong learning and continuous self-improvement.  To date, she has received an associate's degree, two bachelor's degrees, a graduate certificate, and a masters degree.  She is currently pursuing a PhD in addition to studying for the Texas Real Estate exam, which she will be taking in early 2019.  Once licensed, she will take on the task of growing USA Land and Ranch's client base and extending the company's reach into the residential sector.</p>
+                            <p>Striving for a positive attitude is key to every success in life.  Kim's goal is to impact companies and individuals alike by helping them make the most out of their circumstances.  Regardless of the industry, people can always use positivity in their work and their lives.</p>
+                            <p>"It is never too late to be what you might have been."  ~George Eliot</p>
+                        </div>
+                    </div>
+                    
+                </div> <!--/.row-->
+               
+            </div>
+        </div>
+        <!--===== END TEAM AREA =====-->
+
+        <!--===== End Section ====-->
+
+        <!--====== FOOTER AREA ======-->
+        <footer class="footer">
+        	<div class="container">
+        		<div class="row wow zoomIn" data-wow-delay="0.4s">
+        			<div class="col-md-12 text-center">
+        				<ul class="social-link">
+                            <li><a href="mailto:dirk@usalandandranch.com"><i class="fas fa-envelope"></i></a></li>
+                            <li><a href="https://www.facebook.com/USALandandRanch/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+        					<li><a href="https://www.linkedin.com/company/usalandandranch" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+        				</ul>
+        
+        				<p>&copy;2019 <strong>USA Land and Ranch, LLC</strong>. All Rights Reserved</p>
+        				<p>Last updated: 02/18/2019 11:41:50 AM</p>
+        			</div>
+        		</div>
+        	</div>
+        </footer>
+        <!--====== END FOOTER AREA ======-->
+
+<script src="../js/main.js"></script>
+<script data-cfasync="false" type="text/javascript" src="../js/form-submission-handler.js"></script>
+</body>
+</html>
