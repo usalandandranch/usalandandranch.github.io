@@ -23,13 +23,13 @@ NOTE: This is the custom jQuery file for website.
             $(".navbar-collapse").collapse('hide');
         });
 
-        $(window).on('scroll', function() {
-            if ($(".navbar").offset().top > 100) {
-                $(".navbar-fixed-top").addClass("top-nav-collapse");
-            } else {
-                $(".navbar-fixed-top").removeClass("top-nav-collapse");
-            }
-        });
+        // $(window).on('scroll', function() {
+        //     if ($(".navbar").offset().top > 100) {
+        //         $(".navbar-fixed-top").addClass("top-nav-collapse");
+        //     } else {
+        //         $(".navbar-fixed-top").removeClass("top-nav-collapse");
+        //     }
+        // });
 
         /*=============================
                 Smoothscroll js

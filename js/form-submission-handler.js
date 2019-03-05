@@ -108,18 +108,34 @@ function handleFormSubmit(event, form_ID, thankyou_ID) {  // handles form submit
 function loaded() {
   // console.log("Contact form submission handler loaded successfully.");
   // bind to the submit event of our form
-  document.getElementById("contact-form").addEventListener("submit", function(event) {
+  var contactForm=document.getElementById("contact-form");
+  if (contactForm) {
+    contactForm.addEventListener("submit", function(event) {
     handleFormSubmit(event, "contact-form", "thankyou-message");
-  }, false);
-  document.getElementById("buyer-form").addEventListener("submit", function(event) {
+    }, false);
+  }
+  
+  var buyerForm=document.getElementById("buyer-form");
+  if (buyerForm) {
+    buyerForm.addEventListener("submit", function(event) {
     handleFormSubmit(event, "buyer-form", "buyer-message");
-  }, false);
-  document.getElementById("seller-form").addEventListener("submit", function(event) {
+    }, false);
+  }
+  
+  var sellerForm=document.getElementById("seller-form");
+  if (sellerForm) {
+    sellerForm.addEventListener("submit", function(event) {
     handleFormSubmit(event, "seller-form", "seller-message");
-  }, false);
-  document.getElementById("finance-form").addEventListener("submit", function(event) {
+    }, false);
+  }  
+  
+  var finaceForm=document.getElementById("finance-form");
+  if (finaceForm) {
+    finaceForm.addEventListener("submit", function(event) {
     handleFormSubmit(event, "finance-form", "finance-message");
-  }, false);
+    }, false);
+  }
+  
     // form.addEventListener("submit", handleFormSubmit, false);
 };
 function displayForm(form_ID, thankyou_ID) {
@@ -130,10 +146,11 @@ function displayForm(form_ID, thankyou_ID) {
 }
 
 function fillForm(message)  {
+  document.getElementById("contact-in-menu").click();
   // fill form with message
   document.getElementById("message").value="I am interested in "+message+".";
   // $('.modal').modal('hide');
-  document.getElementById("contact-in-menu").click();
+  
 }
 
 document.addEventListener("DOMContentLoaded", loaded, false);

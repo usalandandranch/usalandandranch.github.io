@@ -83,19 +83,10 @@
 
     <body>
 
-    	<!--===== Preloader ====-->
-    	<div class="preloader">
-    		<div class="spinner">
-    			<div class="rect1"></div>
-    			<div class="rect2"></div>
-    			<div class="rect3"></div>
-    			<div class="rect4"></div>
-    			<div class="rect5"></div>
-    		</div>
-    	</div>
+
 
     	<!--===== HEADER AREA =====-->
-    	<header class="navbar custom-navbar navbar-fixed-top">
+    	<header class="navbar custom-navbar navbar-fixed-top top-nav-collapse">
     		<div class="container">
     			<div class="row">
     				<div class="col-md-3 col-sm-5 col-xs-12">
@@ -122,7 +113,7 @@
     					<nav class="main-menu">
     						<div class="navbar-collapse collapse">
     							<ul class="nav navbar-nav"> <!--== main menu ==-->
-    								<li class="active"><a class="smooth-scroll theme-color" href="#home">Home</a></li>
+    								<li class="active"><a class="smooth-scroll theme-color" href="index.html">Home</a></li>
                                     <li><a class="smooth-scroll" href="about.html">About Us</a></li>
                                     <li><a class="smooth-scroll" href="team.html">Our Team</a></li>
     								<li><a class="smooth-scroll" href="ourlistings.html">Our Listings</a></li>
@@ -144,28 +135,10 @@
     	</header>
     	<!--===== END HEADER AREA ======-->
 
-    	<!--======= WELCOME AREA =======-->
-    	<div id="home" class="welcome-area" data-stellar-background-ratio="0.6" style="background-image: url(../img/video-bg.jpg);">
+        <!--===== Each section here ====-->
 
-    		<div class="welcome-table">
-    			<div class="welcome-cell">
-    				<div class="container">
-    					<div class="row">
-    						<div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
-    							<div class="welcome-text">
-    								<img src="../img/favicon.jpg" alt="">
-    								<h1>We <span class="element"></span></h1>
-    								<p>Searching for land and ranch property or recreational real estate in Texas as well as Big 5 and plains game properties in Africa has never been so easy.</p>
-    							</div>
-    						</div>
-    					</div><!--/.row-->
-    				</div><!--/.container-->
-    			</div>
-    		</div>
 
-    	</div>
-    	<!--===== END WELCOME AREA =====-->
-
+        <!--===== End Section ====-->
 
         <!--====== FOOTER AREA ======-->
         <footer class="footer">
@@ -187,16 +160,6 @@
         <!--====== END FOOTER AREA ======-->
 
 <script src="../js/main.js"></script>
-<script>
-    $(window).on('scroll', function() {
-            if ($(".navbar").offset().top > 100) {
-                $(".navbar-fixed-top").addClass("top-nav-collapse");
-            } else {
-                $(".navbar-fixed-top").removeClass("top-nav-collapse");
-            }
-        });
-</script>
 <script data-cfasync="false" type="text/javascript" src="../js/form-submission-handler.js"></script>
-
 </body>
 </html>
