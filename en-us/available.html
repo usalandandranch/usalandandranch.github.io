@@ -197,6 +197,76 @@
         </footer>
         <!--====== END FOOTER AREA ======-->
 
+<script id="propertyStore" type="x-handlebars-template">
+    {{#each property}}
+
+
+    <div class="modal modal-wide fade {{property_ID}}" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">{{title}}</h4>
+
+                </div>
+                <div class="modal-body" id="{{property_ID}}">
+                    <p>Clike <a href="{{property_ID}}.html" target="_blank">here</a> to see details.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default btn-lg" data-dismiss="modal">Close</button>
+                    {{#compare status "sold" operator="=="}}
+                    <button type="button" class="btn btn-danger btn-lg" disabled>SOLD</button>
+                    {{/compare}}
+                    {{#compare status "pending" operator="=="}}
+                    <button type="button" class="btn btn-warning btn-lg" disabled>PENDING</button>
+                    {{/compare}}
+                    {{#compare status "selling" operator="=="}}
+                    <button type="button" class="btn btn-primary btn-lg" data-dismiss="modal" onclick="fillForm('NO. {{property_ID}}: {{title}}')">Contact Us</button>
+                    {{/compare}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="col-md-12 col-sm-12 col-xs-12 mix {{location}}" style="display: inline-block;">
+        <div class="single-property">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+
+                    <a>
+
+                        <img src=.{{image}} alt="">
+                        {{#compare status "sold" operator="=="}}
+                        <div class="property-sold">
+                            <h1>Sold</h1>
+                        </div>
+                        {{/compare}}
+                        {{#compare status "pending" operator="=="}}
+                        <div class="property-pending">
+                            <h1>Pending</h1>
+                        </div>
+                        {{/compare}}
+                        <div class="itemHover">
+                            <div class="property-table">
+                                <div class="table-cell">
+                                    <button class="btn btn-property" data-toggle="modal" data-target=".{{property_ID}}" onclick="myFunction('{{property_ID}}')">Learn more</button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                    <h4>NO. {{property_ID}}: {{title}}</h4>
+                    <p>{{discription}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</script>
 <script src="../js/main.js"></script>
 <script data-cfasync="false" type="text/javascript" src="../js/form-submission-handler.js"></script>
 </body>
