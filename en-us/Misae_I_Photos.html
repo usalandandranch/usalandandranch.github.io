@@ -1,19 +1,814 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is the website of USA Land and Ranch, LLC">
+    <meta name="keywords" content="USA Land, Ranch, Realty, Buy Land, Sell Land, Buy Ranch, Sell Ranch, Dirk">
+    <meta name="author" content="Yong Yang">
+
+    <title>USA Land and Ranch, LLC</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../img/Logo3.png" type="image/jpg">
+
     <!--== bootstrap ==-->
     <link href="../css/lib/bootstrap.min.css" rel="stylesheet">
+
     <!--== style css ==-->
     <link href="../css/style.css" rel="stylesheet">
+
+    <!--== responsive css ==-->
+    <link href="../css/lib/responsive.css" rel="stylesheet">
+
     <!--== carousel css ==-->
     <link href="../css/lib/owl.carousel.min.css" rel="stylesheet" >
     <link href="../css/lib/owl.theme.default.min.css" rel="stylesheet" >
+    
+    <!--== jQuery ==-->
+    <script src="../js/lib/jquery-2.1.4.min.js"></script>
 
-    <script src="../js/lib/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <!--== plugins js ==-->
+    <script src="../js/lib/plugins.min.js"></script>
+
+    <!--== typed js ==-->
+    <script src="../js/lib/typed.js"></script>
+
+    <!--== stellar js ==-->
+    <script src="../js/lib/jquery.stellar.min.js"></script>
+
+    <!--== counterup js ==-->
+    <script src="../js/lib/jquery.counterup.js"></script>
+
+    <!--== mixitup js ==-->
+    <script src="../js/lib/jquery.mixitup.js"></script>
+
+    <!--== fontawesome js ==-->
+    <script src="../js/lib/fontawesome-all.min.js"></script>
+
+    <!--== owl carousel js ==-->
     <script src="../js/lib/owl.carousel.min.js" type="text/javascript"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.0/handlebars.min.js"></script>
+
+    <script type="text/javascript">
+
+        function myFunction(i){
+            var id='#'+i;
+            var file=i+'.html #content';
+            $(id).load(file, function () {
+                $('.owl-carousel').owlCarousel({
+                margin: 10,
+                loop: true,
+                autoplay:true,
+                autoplayTimeout:2000,
+                autoplayHoverPause:true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+                });             
+            });           
+        }
+    </script>
+
+    </head>
+
+
+    <body>
+
+
+
+        <!--===== HEADER AREA =====-->
+        <header class="navbar custom-navbar navbar-fixed-top top-nav-collapse">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-5 col-xs-12">
+                        <div class="logo">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-8 col-xs-10">
+                                    <a href="..">USA Land and Ranch, LLC</a> <!--== logo ==-->
+                                </div>
+                                <div class="col-md-12 col-sm-4 col-xs-2">
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-9 col-sm-7 col-xs-12">
+                        <nav class="main-menu">
+                            <div class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav"> <!--== main menu ==-->
+                                    <li class="active"><a class="smooth-scroll theme-color" href="index.html">Home</a></li>
+                                    <li><a class="smooth-scroll" href="about.html">About Us</a></li>
+                                    <li><a class="smooth-scroll" href="team.html">Our Team</a></li>
+                                    <li><a class="smooth-scroll" href="ourlistings.html">Our Listings</a></li>
+                                    <li><a class="smooth-scroll" href="available.html">Available Listings</a></li>
+                                    <li><a class="smooth-scroll" href="consulting.html">Consulting</a></li>
+                                    <li><a class="smooth-scroll" href="auctions.html">Auctions</a></li>
+                                    <li><a class="smooth-scroll" href="solar.html">Solar</a></li>
+                                    <li><a class="smooth-scroll" href="hunting.html">Hunting</a></li>
+                                    <li><a class="smooth-scroll" href="forms.html">Forms</a></li>
+                                    <li><a id="contact-in-menu" class="smooth-scroll" href="contact.html">Contact</a></li>
+
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div><!--/.row-->
+
+            </div><!--/.container-->
+        </header>
+        <!--===== END HEADER AREA ======-->
+
+        <!--===== Each section here ====-->
+        <!--====== consulting AREA ========-->
+        <div id="consulting" class="consulting-area section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="section-title">
+                            <h2>Misea I Solar Park</h2>
+                        </div>
+                    </div>
+                </div> <!--/.row-->
+
+                <div class="modal modal-wide fade consulting-info" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Photos</h4>
+
+                            </div>
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h3>Drone Photos</h3>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 col-md-12">
+                                            <img src="../img/misaeiphotos/pic (1).jpg" alt="misea image" class="pull-right" style="width:480px;height:auto;margin-left:15px;margin-bottom: 15px;">
+                                        </div>
+                                    </div>
+                                </div>      
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal modal-wide fade consulting-buyer" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Buyer's Guide</h4>
+
+                            </div>
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h3>Looking for the perfect piece of property?</h3>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 col-md-12">
+                                            <p>
+                                                Our team is ready to guide and help you through the buying process. We are committed to courteous, professional and expedient service to help you. Our licensed agents specialize in Texas real estate and will find you the right property at the best price. 
+                                            </p>
+                                            <p>
+                                                We monitor the market, are up to date with comparable sales, track listings, stay current with available properties.
+                                            </p>
+                                            <p>
+                                                We also have a list of properties not advertised on the open market that sellers keep quiet.
+                                            </p>
+                                            <p>
+                                                After purchasing we have contact with all the specialists in any field to be of service to you as you may need while you own the property and can refer you at any time.
+                                            </p>
+                                            <p>
+                                                We can also refer you at any time to the best local labor available.
+                                            </p>
+                                            <p>
+                                                IRS 1031 tax exchange deferred deals have also been assisted in by our team.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12 col-sm-12">
+                                            <form id="buyer-form" method="POST" class="contact-form" action="https://script.google.com/macros/s/AKfycbxbkgZzn7ZSH9rmR0-ntDkkiaSecU185tMHg-iqmOdsI3FqXjU/exec">
+                                                <label class="sr-only">Keep this field blank</label>
+                                                <input class="honeypot" type="text" name="honeypot" value="" />
+                                                <hr>
+                                                <div class="controls">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label>What type of property are you looking for? </label>
+                                                                <div class="form-option">
+                                                                    <input type="checkbox" id="Hunting" name="Hunting">
+                                                                    <label for="Hunting">Hunting</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="checkbox" id="Recreational" name="Recreational">
+                                                                    <label for="Recreational">Recreational</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="checkbox" id="Irrigation" name="Irrigation">
+                                                                    <label for="Irrigation">Irrigation</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="checkbox" id="Farming-or-cattle" name="Farming or cattle">
+                                                                    <label for="Farming-or-cattle">Farming or cattle</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="checkbox" id="CRP" name="CRP for cash return">
+                                                                    <label for="CRP">CRP for cash return</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="checkbox" id="Investment" name="Investment for later reselling">
+                                                                    <label for="Investment">Investment for later reselling</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="checkbox" id="Land-with-oil-and-gas" name="Land with oil and gas">
+                                                                    <label for="Land-with-oil-and-gas">Land with oil and gas</label>
+                                                                </div>                      
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label>What improvements are you looking for? </label>                      
+                                                                <div class="form-option">
+                                                                    <input type="checkbox" id="Open-undeveloped-land" name="Open undeveloped land">
+                                                                    <label for="Open-undeveloped-land">Open undeveloped land</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="checkbox" id="Light-developed-with-cottage" name="Light developed with cottage">
+                                                                    <label for="Light-developed-with-cottage">Light developed with cottage</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="checkbox" id="Medium-developed-with-house" name="Medium developed with house">
+                                                                    <label for="Medium-developed-with-house">Medium developed with house</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="checkbox" id="Well-developed" name="Well developed fenced high game fence">
+                                                                    <label for="Well-developed">Well developed /fenced/ high game fence</label>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label for="price-range">What is your desired price range? </label>
+                                                                <input type="text" id="price-range" name="price range" class="form-control" placeholder="$200,000 - $900,000" required="required">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label for="counties">What counties are you interested in? </label>
+                                                                <input type="text" id="counties" name="counties" class="form-control" placeholder="What counties are you interested in?">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label for="description">Describe the ranch or land that you would like. </label>
+                                                                <textarea id="description" name="description" class="form-control" rows="7" placeholder="Describe the ranch or land that you would like."></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label>When are you looking to buy? </label>
+                                                                <div class="form-option">
+                                                                    <input type="radio" id="when-to-buy-1" name="when to buy" value="Just Browsing" required="required">
+                                                                    <label for="when-to-buy-1">Just Browsing</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="radio" id="when-to-buy-2" name="when to buy" value="Less than 1 Month">
+                                                                    <label for="when-to-buy-2">Less than 1 Month</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="radio" id="when-to-buy-3" name="when to buy" value="1 - 3 months">
+                                                                    <label for="when-to-buy-3">1 - 3 months</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="radio" id="when-to-buy-4" name="when to buy" value="3 - 6 months">
+                                                                    <label for="when-to-buy-4">3 - 6 months</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="radio" id="when-to-buy-5" name="when to buy" value="6 months or longer">
+                                                                    <label for="when-to-buy-5">6 months or longer</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label>What is your main reason for buying? </label>
+                                                                <div class="form-option">
+                                                                    <input type="radio" id="reason-to-buy-1" name="main reason to buy" value="Recreational/Hunting" required="required">
+                                                                    <label for="reason-to-buy-1">Recreational/Hunting</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="radio" id="reason-to-buy-2" name="main reason to buy" value="Investment">
+                                                                    <label for="reason-to-buy-2">Investment</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="radio" id="reason-to-buy-3" name="main reason to buy" value="Minerals/Wind">
+                                                                    <label for="reason-to-buy-3">Minerals/Wind</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="radio" id="reason-to-buy-4" name="main reason to buy" value="Farming/Cattle/Irrigation">
+                                                                    <label for="reason-to-buy-4">Farming/Cattle/Irrigation</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <input type="text" name="first name" class="form-control" placeholder="First Name*" required="required">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <input type="text" name="last name" class="form-control" placeholder="Last Name*" required="required">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <input type="email" name="email" class="form-control" placeholder="Email*" required="required">                                 
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <input type="tel" name="Phone Number" class="form-control" placeholder="Phone Number*" required="required">       
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <input type="submit" class="btn read-more-btn btn-effect btn-sent theme-color" value="Submit">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <div style="display:none;" id="buyer-message">
+                                                <h2>Thanks for submitting this buyer's guide form! We will get back to you soon!</h2>
+                                            </div>
+                                        </div>
+                                    </div><!--/.row-->
+
+                                </div>
+                                
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default btn-lg" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal modal-wide fade consulting-seller" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Seller's Guide</h4>
+
+                            </div>
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h3>Selling your Property</h3>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 col-md-12">
+                                            <p>
+                                                Dirk van Reenen Sr. of USA Land and Ranch is a local real estate expert ready to help you sell your land or property. 
+                                            </p>
+                                            <p>
+                                                From setting the price to creating marketing traditional and the Web, we have a plan that will match your land with the right buyers at the right price. We are committed to courteous, professional and fast personal service to help you feel at ease throughout the selling process.
+                                            </p>
+                                            <p>
+                                                From any small acreage to very large tracts of land we service the entire market ,hunting, recreational, cattle and farming, irrigation, oil and gas, solar, wind and also investment buyers. We reach many people by personal contact who have been of our clients before and who have contacted us in the past looking for a specific property. We have an extensive customer base old and new seeking property.
+                                            </p>
+                                            <p>
+                                                Each person is proud of what they own and would earnestly like to showcase their unique property to the best possible extreme and earn the best possible price. That is where we can be of extreme service to you the seller because we have the same values as you do about your property and no property is less important to us than any other. Each property is equally important because we are dealing with you and your feelings and emotions when selling a property.
+
+                                            </p>
+                                            <p>
+                                                We, as stewards of the land, always make it our priority to conduct deals in the best interest of our clients and to the honor of the profession of being a real estate agent.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12 col-sm-12">
+                                            <form id="seller-form" method="POST" class="contact-form" action="https://script.google.com/macros/s/AKfycbyylDsb7sUUqbgJwSYbqK8kPTswLX25nKlPU9NYDGWF3tKjqdYZ/exec">
+                                                <label class="sr-only">Keep this field blank</label>
+                                                <input class="honeypot" type="text" name="honeypot" value="" />
+                                                <hr>
+                                                <div class="controls">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label>What type of property are you selling? </label>
+                                                                <div class="form-option">
+                                                                    <input type="checkbox" id="property-sell-1" name="Hunting/Recreational">
+                                                                    <label for="property-sell-1">Hunting/Recreational</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="checkbox" id="property-sell-2" name="CRP or investment land">
+                                                                    <label for="property-sell-2">CRP or investment land</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="checkbox" id="property-sell-3" name="Cattle ranch">
+                                                                    <label for="property-sell-3">Cattle ranch</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="checkbox" id="property-sell-4" name="Farming or Irrigation operation">
+                                                                    <label for="property-sell-4">Farming or Irrigation operation</label>
+                                                                </div>                                  
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label>What improvements are on your land?</label>                      
+                                                                <div class="form-option">
+                                                                    <input type="checkbox" id="improvement-sell-1" name="Open ranch land/ undeveloped">
+                                                                    <label for="improvement-sell-1">Open ranch land/ undeveloped</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="checkbox" id="improvement-sell-2" name="Ranch with cottage">
+                                                                    <label for="improvement-sell-2">Ranch with cottage</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="checkbox" id="improvement-sell-3" name="Ranch with house">
+                                                                    <label for="improvement-sell-3">Ranch with house. ( medium developed)</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="checkbox" id="improvement-sell-4" name="Well developed">
+                                                                    <label for="improvement-sell-4">Well developed</label>
+                                                                </div>              
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label for="sell-acreage">What is the acreage? </label>
+                                                                <input type="text" id="sell-acreage" name="acreage" class="form-control" placeholder="Acreage*" required="required">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label for="sell-counties">What county is your property in? </label>
+                                                                <input type="text" id="sell-counties" name="counties" class="form-control" placeholder="What county is your property in?" required="required">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label for="sell-description">List or describe important features.</label>
+                                                                <textarea id="sell-description" name="description" class="form-control" rows="7" placeholder="List or describe important features."></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label>What is your time frame for selling? </label>
+                                                                <div class="form-option">
+                                                                    <input type="radio" id="when-to-sell-1" name="when to sell" value="3 months" required="required">
+                                                                    <label for="when-to-sell-1">3 months</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="radio" id="when-to-sell-2" name="when to sell" value="6 months">
+                                                                    <label for="when-to-sell-2">6 months</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="radio" id="when-to-sell-3" name="when to sell" value="Within a year">
+                                                                    <label for="when-to-sell-3">Within a year</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <input type="text" name="first name" class="form-control" placeholder="First Name*" required="required">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <input type="text" name="last name" class="form-control" placeholder="Last Name*" required="required">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <input type="email" name="email" class="form-control" placeholder="Email*" required="required">                                 
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <input type="tel" name="Phone Number" class="form-control" placeholder="Phone Number*" required="required">       
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <input type="submit" class="btn read-more-btn btn-effect btn-sent theme-color" value="Submit">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <div style="display:none;" id="seller-message">
+                                                <h2>Thanks for submitting this seller's guide form! We will get back to you soon!</h2>
+                                            </div>
+                                        </div>
+                                    </div><!--/.row-->
+
+                                </div>
+                                
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default btn-lg" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal modal-wide fade consulting-finance" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Seeking Finance</h4>
+
+                            </div>
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h3>Finance your Land, Ranch or Property in Texas</h3>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 col-md-12">
+                                            <p>
+                                                Our team works with financiers who are professionals in their field of land financing and who are eager to help and assist you in the purchase of any property. We commit ourselves to professional, courteous and confidential service to help you make informed and wise decisions in any purchase. Trained and certified loan officers who specialize in land financing will be at your service. 
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12 col-sm-12">
+                                            <form id="finance-form" method="POST" class="contact-form" action="https://script.google.com/macros/s/AKfycbxs54QiH6uqZsRRHbxD3J1IERoR4UstZjxIuPD0GF7ofMOUY-7P/exec">
+                                                <label class="sr-only">Keep this field blank</label>
+                                                <input class="honeypot" type="text" name="honeypot" value="" />
+                                                <hr>
+                                                <div class="controls">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label for="finance-description">How can we help you to finance your land?</label>
+                                                                <textarea id="finance-description" name="description" class="form-control" rows="7" placeholder="How can we help you to finance your land?"></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <input type="text" name="first name" class="form-control" placeholder="First Name*" required="required">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <input type="text" name="last name" class="form-control" placeholder="Last Name*" required="required">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <input type="email" name="email" class="form-control" placeholder="Email*" required="required">                                 
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <input type="tel" name="Phone Number" class="form-control" placeholder="Phone Number*" required="required">       
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label>I prefer to be contacted by</label>
+                                                                <div class="form-option">
+                                                                    <input type="radio" id="contact-method-1" name="I prefer to be contacted by" value="Phone" required="required">
+                                                                    <label for="contact-method-1">Phone</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="radio" id="contact-method-2" name="I prefer to be contacted by" value="Text">
+                                                                    <label for="contact-method-2">Text</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="radio" id="contact-method-3" name="I prefer to be contacted by" value="Email">
+                                                                    <label for="contact-method-3">Email</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label>The best time to reach me is</label>
+                                                                <div class="form-option">
+                                                                    <input type="radio" id="contact-time-1" name="The best time to reach me is" value="Anytime" required="required">
+                                                                    <label for="contact-time-1">Anytime</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="radio" id="contact-time-2" name="The best time to reach me is" value="Evenings">
+                                                                    <label for="contact-time-2">Evenings</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="radio" id="contact-time-3" name="The best time to reach me is" value="Weekends">
+                                                                    <label for="contact-time-3">Weekends</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label>What would you like to do?</label>
+                                                                <div class="form-option">
+                                                                    <input type="radio" id="contact-reason-1" name="What would you like to do" value="Apply for a loan">
+                                                                    <label for="contact-reason-1">Apply for a loan</label>
+                                                                </div>
+                                                                <div class="form-option">
+                                                                    <input type="radio" id="contact-reason-2" name="What would you like to do" value="Get pre-qualified">
+                                                                    <label for="contact-reason-2">Get pre-qualified</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>                                                  
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <input type="submit" class="btn read-more-btn btn-effect btn-sent theme-color" value="Submit">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <div style="display:none;" id="finance-message">
+                                                <h2>Thanks for submitting this form! We will get back to you soon to help you financing your land!</h2>
+                                            </div>
+                                        </div>
+                                    </div><!--/.row-->
+
+                                </div>
+                                
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default btn-lg" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        <div class="single-consulting">
+                            <div class="post-content">
+                                <h3>Consulting, Planning & Management</h3>
+                                <p>Having been directly involved with very many properties being developed and remodeled for resale and improving the value of such with the knowledge of costs and prices to do so it has been of much benefit to many buyers and investors. Developing and planning improvements on different properties is not...</p>
+                                <button class="read-more-btn" data-toggle="modal" data-target=".consulting-info">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        <div class="single-consulting">
+                            <div class="post-content">
+                                <h3>Buyer's Guide</h3>
+                                <p>Looking for the perfect piece of property? Our team are ready to guide and help you through the buying process. We are committed to courteous, professional and fast service to help you. Our licensed agents specialize in Texas real estate and will find you the right property at the best price. We monitor the market, are up to date ...</p>
+                                <button class="read-more-btn" data-toggle="modal" data-target=".consulting-buyer">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--/.row -->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        <div class="single-consulting">
+                            <div class="post-content">
+                                <h3>Seller's Guide</h3>
+                                <p>From setting the price to creating marketing traditional and the Web, we have a plan that will match your land with the right buyers at the right price. We are committed to courteous, professional and fast personal service to help you feel at ease throughout the selling process...</p>
+                                <button class="read-more-btn" data-toggle="modal" data-target=".consulting-seller">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        <div class="single-consulting">
+                            <div class="post-content">
+                                <h3>Seeking Finance</h3>
+                                <p>Our team works with financiers who are professionals in their field of land financing and who are eager to help and assist you in the purchase of any property. We commit ourselves to professional, courteous and confidential service to help you make informed ...</p>
+                                <button class="read-more-btn" data-toggle="modal" data-target=".consulting-finance">Read More</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--/.row -->
+                <br>
+                            <h4>For more information</h4>
+                            
+                            <p>Contact us at <a href="mailto:consulting@usalandandranch.com">consulting@usalandandranch.com</a></p>
+
+            </div> <!--/.container -->
+        </div>
+<!--====== END consulting AREA ========-->
+
+        <!--===== End Section ====-->
+
+                <!--====== FOOTER AREA ======-->
+        <footer class="footer">
+            <div class="container">
+                <div class="row wow zoomIn" data-wow-delay="0.4s">
+                    <div class="col-md-12 text-center">
+                        <ul class="social-link">
+                            <li><a href="mailto:consulting@usalandandranch.com"><i class="fas fa-envelope"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/usalandandranch" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.facebook.com/USALandandRanch/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://twitter.com/AmarilloAuction" target="_blank"><i class ="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/usalandandranch/" target="_blank"><i class ="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.pinterest.com/usalandandranch/" target="_blank"><i class = "fab fa-pinterest"></i></a></li>
+                            <li><a href="https://plus.google.com/+usalandandranch" target="_blank"><i class = "fab fa-google"></i></a></li>
+
+
+                            
+                        </ul>
+        
+                        <p>&copy;2019 <strong>USA Land and Ranch, LLC</strong>. All Rights Reserved</p>
+                        <p>Last updated: 03/15/2019 02:10:45 PM</p>
+                        <br>
+                        <a href="../includes/IABS_DVR.pdf" target="_blank"><p>Texas Real Estate Commission Information About Brokerage Service (IABS)</p></a>
+                        <br>
+                        <a href="../includes/TREC_Consumer_Protection_Notice.pdf" target="_blank"><p>Texas Real Estate Commission Consumer Protection Notice</p></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--====== END FOOTER AREA ======-->
+
+<script src="../js/main.js"></script>
+<script data-cfasync="false" type="text/javascript" src="../js/form-submission-handler.js"></script>
+</body>
+</html>
+
+other info
 
 </head>
 <body>
