@@ -165,7 +165,21 @@ input:-webkit-autofill:focus {
 .section-padding {
     padding: 200px 0;
 }
-
+/*================================================
+            2 MULTIPLE LANGUAGE BUTTON
+==================================================*/
+.btn.ml-btn{
+    background-color: #fff;
+    border: 2px solid transparent;
+    color: #222;
+    margin-top: 0px;
+    font-size: 26px;
+}
+.btn.ml-btn:hover{
+    border: 2px solid #fff;
+    color: #fff;
+    background: transparent;
+}
 /*================================================
             3 HEADER AREA
 =================================================*/
