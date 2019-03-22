@@ -19,9 +19,9 @@ NOTE: This is the custom jQuery file for website.
         /*=============================
                     Sticky header
         ==============================*/
-        $('.navbar-collapse a').on('click',function(){
-            $(".navbar-collapse").collapse('hide');
-        });
+        // $('.nav-item a').on('click',function(){
+        //     $(".navbar-collapse").collapse('hide');
+        // });
 
         // $(window).on('scroll', function() {
         //     if ($(".navbar").offset().top > 100) {
@@ -57,20 +57,20 @@ NOTE: This is the custom jQuery file for website.
      /*=================================
             Bootstrap menu fix
      ==================================*/
-        $(".navbar-toggle").on("click", function(){
-
-            $('body').addClass("mobile-menu-activated");
-
-        });
-
-        $("ul.nav.navbar-nav li a").on("click", function(){
-
-            $(".navbar-collapse").removeClass("in");
-            $(".nav").find(".active").removeClass("active");
-            $(this).parent().addClass("active");
-
-
-        });
+        // $(".navbar-toggle").on("click", function(){
+				//
+        //     $('body').addClass("mobile-menu-activated");
+				//
+        // });
+				//
+        // $("ul.nav.navbar-nav li a").on("click", function(){
+				//
+        //     $(".navbar-collapse").removeClass("in");
+        //     $(".nav").find(".active").removeClass("active");
+        //     $(this).parent().addClass("active");
+				//
+				//
+        // });
 
     /*====================================================
         background-image flickering solution for mobile
@@ -133,9 +133,9 @@ NOTE: This is the custom jQuery file for website.
 
         if (arguments.length < 3)
             throw new Error("Handlerbars Helper 'compare' needs 2 parameters");
-    
+
         var operator = options.hash.operator || "==";
-    
+
         var operators = {
             '==':       function(l,r) { return l == r; },
             '===':      function(l,r) { return l === r; },
@@ -146,19 +146,19 @@ NOTE: This is the custom jQuery file for website.
             '>=':       function(l,r) { return l >= r; },
             'typeof':   function(l,r) { return typeof l == r; }
         }
-    
+
         if (!operators[operator])
             throw new Error("Handlerbars Helper 'compare' doesn't know the operator "+operator);
-    
+
         var result = operators[operator](lvalue,rvalue);
-    
+
         if( result ) {
             return options.fn(this);
         } else {
             return options.inverse(this);
         }
 
-    });        
+    });
 
 
     });

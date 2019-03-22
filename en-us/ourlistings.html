@@ -12,8 +12,8 @@
 	<link rel="shortcut icon" href="../img/Logo3.png" type="image/jpg">
 
 	<!--== bootstrap ==-->
-	<link href="../css/lib/bootstrap.min.css" rel="stylesheet">
-
+	<!-- <link href="../css/lib/bootstrap.min.css" rel="stylesheet"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--== style css ==-->
     <link href="../css/style.css" rel="stylesheet">
 
@@ -23,9 +23,13 @@
     <!--== carousel css ==-->
     <link href="../css/lib/owl.carousel.min.css" rel="stylesheet" >
     <link href="../css/lib/owl.theme.default.min.css" rel="stylesheet" >
-    
+
 	<!--== jQuery ==-->
-	<script src="../js/lib/jquery-2.1.4.min.js"></script>
+	<!-- <script src="../js/lib/jquery-2.1.4.min.js">	</script> -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="../js/lib/jquery-2.1.4.min.js">	</script>
 
 	<!--== plugins js ==-->
 	<script src="../js/lib/plugins.min.js"></script>
@@ -45,8 +49,8 @@
 	<!--== fontawesome js ==-->
 	<script src="../js/lib/fontawesome-all.min.js"></script>
 
-    <!--== owl carousel js ==-->
-    <script src="../js/lib/owl.carousel.min.js" type="text/javascript"></script>
+  <!--== owl carousel js ==-->
+  <script src="../js/lib/owl.carousel.min.js" type="text/javascript"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.0/handlebars.min.js"></script>
 
@@ -55,7 +59,7 @@
 		function myFunction(i){
 			var id='#'+i;
 			var file=i+'.html #content';
-			$(id).load(file, function () {
+			$(id).load(file, function (e) {
                 $('.owl-carousel').owlCarousel({
                 margin: 10,
                 loop: true,
@@ -73,8 +77,8 @@
                         items: 3
                     }
                 }
-                });        		
-			});           
+                });
+			});
         }
     </script>
 
@@ -86,53 +90,52 @@
 
 
     	<!--===== HEADER AREA =====-->
-    	<header class="navbar custom-navbar navbar-fixed-top top-nav-collapse">
-    		<div class="container">
-    			<div class="row">
-    				<div class="col-md-3 col-sm-5 col-xs-12">
-    					<div class="logo">
-                            <div class="row">
-                                <div class="col-md-12 col-sm-8 col-xs-10">
-                                    <a href="..">USA Land and Ranch, LLC</a> <!--== logo ==-->
-                                </div>
-                                <div class="col-md-12 col-sm-4 col-xs-2">
-                                    <div class="navbar-header">
-                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                            <span class="sr-only">Toggle navigation</span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+			<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+				  <a class="navbar-brand" href="#">USA Land and Ranch, LLC</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
 
-    				<div class="col-md-9 col-sm-7 col-xs-12">
-    					<nav class="main-menu">
-    						<div class="navbar-collapse collapse">
-    							<ul class="nav navbar-nav"> <!--== main menu ==-->
-    								<li class="active"><a class="smooth-scroll theme-color" href="index.html">Home</a></li>
-                                    <li><a class="smooth-scroll" href="about.html">About Us</a></li>
-                                    <li><a class="smooth-scroll" href="team.html">Our Team</a></li>
-    								<li><a class="smooth-scroll" href="ourlistings.html">Our Listings</a></li>
-    								<li><a class="smooth-scroll" href="available.html">Available Listings</a></li>
-    								<li><a class="smooth-scroll" href="consulting.html">Consulting</a></li>
-                                    <li><a class="smooth-scroll" href="auctions.html">Auctions</a></li>
-                                    <li><a class="smooth-scroll" href="solar.html">Solar</a></li>
-                                    <li><a class="smooth-scroll" href="hunting.html">Hunting</a></li>
-                                    <li><a class="smooth-scroll" href="forms.html">Forms</a></li>
-    								<li><a id="contact-in-menu" class="smooth-scroll" href="contact.html">Contact</a></li>
-
-    							</ul>
-    						</div>
-    					</nav>
-    				</div>
-    			</div><!--/.row-->
-
-    		</div><!--/.container-->
-    	</header>
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item">
+				        <a class="nav-link smooth-scroll" href="index.html">Home <span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link smooth-scroll" href="about.html">About Us</a>
+				      </li>
+							<li class="nav-item">
+								<a class="nav-link smooth-scroll" href="team.html">Our Team</a>
+							</li>
+				      <li class="nav-item dropdown  active">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Listings
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item smooth-scroll" href="ourlistings.html">Our Listings</a>
+				          <a class="dropdown-item smooth-scroll" href="available.html">Available Listings</a>
+				        </div>
+				      </li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Services
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item smooth-scroll" href="consulting.html">Consulting</a>
+									<a class="dropdown-item smooth-scroll" href="auctions.html">Auctions</a>
+									<a class="dropdown-item smooth-scroll" href="solar.html">Solar</a>
+									<a class="dropdown-item smooth-scroll" href="hunting.html">Hunting</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link smooth-scroll" href="forms.html">Forms</a>
+							</li>
+							<li class="nav-item">
+								<a id="contact-in-menu" class="nav-link smooth-scroll" href="contact.html">Contact</a>
+							</li>
+				    </ul>
+				  </div>
+				</nav>
     	<!--===== END HEADER AREA ======-->
 
         <!--===== Each section here ====-->
@@ -171,7 +174,7 @@
                     <!-- Load property list by script below -->
                     <br>
                             <h4>For more information</h4>
-                            
+
                             <p>Contact us at <a href="mailto:realtor@usalandandranch.com">realtor@usalandandranch.com</a></p>
                 </div><!--/.row-->
             </div><!--/.container-->
@@ -195,9 +198,9 @@
                             <li><a href="https://plus.google.com/+usalandandranch" target="_blank"><i class = "fab fa-google"></i></a></li>
 
 
-                            
+
                         </ul>
-        
+
                         <p>&copy;2019 <strong>USA Land and Ranch, LLC</strong>. All Rights Reserved</p>
                         <p>Last updated: 03/15/2019 02:10:45 PM</p>
                         <br>
@@ -214,12 +217,13 @@
 
 
     <div class="modal modal-wide fade {{property_ID}}" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">{{title}}</h4>
-
+									<h4 class="modal-title">{{title}}</h4>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
                 </div>
                 <div class="modal-body" id="{{property_ID}}">
                     <p>Clike <a href="{{property_ID}}.html" target="_blank">here</a> to see details.</p>
@@ -240,15 +244,11 @@
         </div>
     </div>
 
-
-
     <div class="col-md-12 col-sm-12 col-xs-12 mix {{location}}" style="display: inline-block;">
         <div class="single-property">
             <div class="row">
                 <div class="col-md-4 col-sm-12 col-xs-12">
-
                     <a>
-
                         <img src=.{{image}} alt="">
                         {{#compare status "sold" operator="=="}}
                         <div class="property-sold">
@@ -263,7 +263,7 @@
                         <div class="itemHover">
                             <div class="property-table">
                                 <div class="table-cell">
-                                    <button class="btn btn-property" data-toggle="modal" data-target=".{{property_ID}}" onclick="myFunction('{{property_ID}}')">Learn more</button>
+                                    <button type="button" class="btn btn-property" data-toggle="modal" data-target=".{{property_ID}}" onclick="myFunction('{{property_ID}}')">Learn more</button>
                                 </div>
                             </div>
                         </div>
@@ -282,5 +282,6 @@
 
 <script src="../js/main.js"></script>
 <script data-cfasync="false" type="text/javascript" src="../js/form-submission-handler.js"></script>
+
 </body>
 </html>
