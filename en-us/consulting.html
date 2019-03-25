@@ -12,8 +12,8 @@
 	<link rel="shortcut icon" href="../img/Logo3.png" type="image/jpg">
 
 	<!--== bootstrap ==-->
-	<link href="../css/lib/bootstrap.min.css" rel="stylesheet">
-
+	<!-- <link href="../css/lib/bootstrap.min.css" rel="stylesheet"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--== style css ==-->
     <link href="../css/style.css" rel="stylesheet">
 
@@ -23,9 +23,13 @@
     <!--== carousel css ==-->
     <link href="../css/lib/owl.carousel.min.css" rel="stylesheet" >
     <link href="../css/lib/owl.theme.default.min.css" rel="stylesheet" >
-    
+
 	<!--== jQuery ==-->
-	<script src="../js/lib/jquery-2.1.4.min.js"></script>
+	<!-- <script src="../js/lib/jquery-2.1.4.min.js">	</script> -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="../js/lib/jquery-2.1.4.min.js">	</script>
 
 	<!--== plugins js ==-->
 	<script src="../js/lib/plugins.min.js"></script>
@@ -45,8 +49,8 @@
 	<!--== fontawesome js ==-->
 	<script src="../js/lib/fontawesome-all.min.js"></script>
 
-    <!--== owl carousel js ==-->
-    <script src="../js/lib/owl.carousel.min.js" type="text/javascript"></script>
+  <!--== owl carousel js ==-->
+  <script src="../js/lib/owl.carousel.min.js" type="text/javascript"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.0/handlebars.min.js"></script>
 
@@ -55,7 +59,7 @@
 		function myFunction(i){
 			var id='#'+i;
 			var file=i+'.html #content';
-			$(id).load(file, function () {
+			$(id).load(file, function (e) {
                 $('.owl-carousel').owlCarousel({
                 margin: 10,
                 loop: true,
@@ -73,8 +77,8 @@
                         items: 3
                     }
                 }
-                });        		
-			});           
+                });
+			});
         }
     </script>
 
@@ -86,53 +90,52 @@
 
 
     	<!--===== HEADER AREA =====-->
-    	<header class="navbar custom-navbar navbar-fixed-top top-nav-collapse">
-    		<div class="container">
-    			<div class="row">
-    				<div class="col-md-3 col-sm-5 col-xs-12">
-    					<div class="logo">
-                            <div class="row">
-                                <div class="col-md-12 col-sm-8 col-xs-10">
-                                    <a href="..">USA Land and Ranch, LLC</a> <!--== logo ==-->
-                                </div>
-                                <div class="col-md-12 col-sm-4 col-xs-2">
-                                    <div class="navbar-header">
-                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                            <span class="sr-only">Toggle navigation</span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+			<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+				  <a class="navbar-brand" href="#">USA Land and Ranch, LLC</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
 
-    				<div class="col-md-9 col-sm-7 col-xs-12">
-    					<nav class="main-menu">
-    						<div class="navbar-collapse collapse">
-    							<ul class="nav navbar-nav"> <!--== main menu ==-->
-    								<li class="active"><a class="smooth-scroll theme-color" href="index.html">Home</a></li>
-                                    <li><a class="smooth-scroll" href="about.html">About Us</a></li>
-                                    <li><a class="smooth-scroll" href="team.html">Our Team</a></li>
-    								<li><a class="smooth-scroll" href="ourlistings.html">Our Listings</a></li>
-    								<li><a class="smooth-scroll" href="available.html">Available Listings</a></li>
-    								<li><a class="smooth-scroll" href="consulting.html">Consulting</a></li>
-                                    <li><a class="smooth-scroll" href="auctions.html">Auctions</a></li>
-                                    <li><a class="smooth-scroll" href="solar.html">Solar</a></li>
-                                    <li><a class="smooth-scroll" href="hunting.html">Hunting</a></li>
-                                    <li><a class="smooth-scroll" href="forms.html">Forms</a></li>
-    								<li><a id="contact-in-menu" class="smooth-scroll" href="contact.html">Contact</a></li>
-
-    							</ul>
-    						</div>
-    					</nav>
-    				</div>
-    			</div><!--/.row-->
-
-    		</div><!--/.container-->
-    	</header>
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item">
+				        <a class="nav-link smooth-scroll" href="index.html">Home <span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link smooth-scroll" href="about.html">About Us</a>
+				      </li>
+							<li class="nav-item">
+								<a class="nav-link smooth-scroll" href="team.html">Our Team</a>
+							</li>
+				      <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Listings
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item smooth-scroll" href="ourlistings.html">Our Listings</a>
+				          <a class="dropdown-item smooth-scroll" href="available.html">Available Listings</a>
+				        </div>
+				      </li>
+							<li class="nav-item dropdown active">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Services
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item smooth-scroll" href="consulting.html">Consulting</a>
+									<a class="dropdown-item smooth-scroll" href="auctions.html">Auctions</a>
+									<a class="dropdown-item smooth-scroll" href="solar.html">Solar</a>
+									<a class="dropdown-item smooth-scroll" href="hunting.html">Hunting</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link smooth-scroll" href="forms.html">Forms</a>
+							</li>
+							<li class="nav-item">
+								<a id="contact-in-menu" class="nav-link smooth-scroll" href="contact.html">Contact</a>
+							</li>
+				    </ul>
+				  </div>
+				</nav>
     	<!--===== END HEADER AREA ======-->
 
         <!--===== Each section here ====-->
@@ -151,9 +154,10 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                                 <h4 class="modal-title">Consulting, Planning & Management</h4>
-
+																<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																	<span aria-hidden="true">&times;</span>
+																</button>
                             </div>
                             <div class="modal-body">
                                 <div class="container-fluid">
@@ -165,7 +169,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-xs-12 col-sm-12 col-md-12">
-                                            <img src="../img/consulting.jpg" alt="consulting image" class="pull-right" style="width:480px;height:auto;margin-left:15px;margin-bottom: 15px;">
+                                            <img src="../img/consulting.jpg" alt="consulting image" class="rounded float-right" style="width:480px;height:auto;margin-left:15px;margin-bottom: 15px;">
                                             <p>
                                                 Having been directly involved with many properties being developed and remodeled for resale and improving the value of such with the knowledge of costs and prices to do so it has been of much benefit to many buyers and investors. Developing and planning improvements on different properties is not a one plan fits all.
                                             </p>
@@ -185,20 +189,20 @@
                                                 Through our vast knowledge of Texas lands we are able to advise buyers and investors on land and properties in such a way without having any bias to any one area or location.
                                             </p>
                                             <p>
-                                                Many buyers or sellers agents do not always exhibit the best interest for their clients in advising them on very important issues and a small number truly have the farming and ranching background experience of the industry before they became real estate agents. Having been in management of large farming and ranching operations for 18 years has truly put us in a position of knowledge and expertise when it does come to advising land investors on what they are looking at, knowing what their goals are. 
+                                                Many buyers or sellers agents do not always exhibit the best interest for their clients in advising them on very important issues and a small number truly have the farming and ranching background experience of the industry before they became real estate agents. Having been in management of large farming and ranching operations for 18 years has truly put us in a position of knowledge and expertise when it does come to advising land investors on what they are looking at, knowing what their goals are.
                                             </p>
                                             <p>
-                                                We have had the privilege of working very closely with one investor in particular and have bought and sold many properties for him. We can confidently report that over time, these investments have been of great financial benefit for him. We also undertook the oversight of the improvements on the properties on his behalf. 
+                                                We have had the privilege of working very closely with one investor in particular and have bought and sold many properties for him. We can confidently report that over time, these investments have been of great financial benefit for him. We also undertook the oversight of the improvements on the properties on his behalf.
                                             </p>
                                             <p>
-                                                With the relative ease of searching for items on the internet these days, most people assume that they know how to do stuff. This is especially true when it comes to unregulated things, such as owning and buying land. If an individual is financially able to purchase land and make improvements, they are often shocked to find they made mistakes along the way in not doing the needed research or having the knowledge of what they were doing. Being able to pay for it does not make you a professional, experience does. 
+                                                With the relative ease of searching for items on the internet these days, most people assume that they know how to do stuff. This is especially true when it comes to unregulated things, such as owning and buying land. If an individual is financially able to purchase land and make improvements, they are often shocked to find they made mistakes along the way in not doing the needed research or having the knowledge of what they were doing. Being able to pay for it does not make you a professional, experience does.
                                             </p>
                                             <p>
-                                                It is with much respect to the land and the creation of it, that we offer our services in consultation on any issues pertaining to purchasing, selling and improvement and management of land to you as a buyer, seller or investor. 
+                                                It is with much respect to the land and the creation of it, that we offer our services in consultation on any issues pertaining to purchasing, selling and improvement and management of land to you as a buyer, seller or investor.
                                             </p>
                                         </div>
                                     </div>
-                                </div>      
+                                </div>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default btn-lg" data-dismiss="modal">Close</button>
@@ -211,9 +215,10 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                                 <h4 class="modal-title">Buyer's Guide</h4>
-
+																<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																	<span aria-hidden="true">&times;</span>
+																</button>
                             </div>
                             <div class="modal-body">
                                 <div class="container-fluid">
@@ -226,7 +231,7 @@
                                     <div class="row">
                                         <div class="col-xs-12 col-sm-12 col-md-12">
                                             <p>
-                                                Our team is ready to guide and help you through the buying process. We are committed to courteous, professional and expedient service to help you. Our licensed agents specialize in Texas real estate and will find you the right property at the best price. 
+                                                Our team is ready to guide and help you through the buying process. We are committed to courteous, professional and expedient service to help you. Our licensed agents specialize in Texas real estate and will find you the right property at the best price.
                                             </p>
                                             <p>
                                                 We monitor the market, are up to date with comparable sales, track listings, stay current with available properties.
@@ -284,7 +289,7 @@
                                                                 <div class="form-option">
                                                                     <input type="checkbox" id="Land-with-oil-and-gas" name="Land with oil and gas">
                                                                     <label for="Land-with-oil-and-gas">Land with oil and gas</label>
-                                                                </div>                      
+                                                                </div>
                                                             </div>
 
                                                         </div>
@@ -292,7 +297,7 @@
                                                     <div class="row">
                                                         <div class="col-md-12">
                                                             <div class="form-group">
-                                                                <label>What improvements are you looking for? </label>                      
+                                                                <label>What improvements are you looking for? </label>
                                                                 <div class="form-option">
                                                                     <input type="checkbox" id="Open-undeveloped-land" name="Open undeveloped land">
                                                                     <label for="Open-undeveloped-land">Open undeveloped land</label>
@@ -402,12 +407,12 @@
                                                     <div class="row">
                                                         <div class="col-md-6">
                                                             <div class="form-group">
-                                                                <input type="email" name="email" class="form-control" placeholder="Email*" required="required">                                 
+                                                                <input type="email" name="email" class="form-control" placeholder="Email*" required="required">
                                                             </div>
                                                         </div>
                                                         <div class="col-md-6">
                                                             <div class="form-group">
-                                                                <input type="tel" name="Phone Number" class="form-control" placeholder="Phone Number*" required="required">       
+                                                                <input type="tel" name="Phone Number" class="form-control" placeholder="Phone Number*" required="required">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -425,7 +430,7 @@
                                     </div><!--/.row-->
 
                                 </div>
-                                
+
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default btn-lg" data-dismiss="modal">Close</button>
@@ -438,9 +443,10 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                                 <h4 class="modal-title">Seller's Guide</h4>
-
+																<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																	<span aria-hidden="true">&times;</span>
+																</button>
                             </div>
                             <div class="modal-body">
                                 <div class="container-fluid">
@@ -453,7 +459,7 @@
                                     <div class="row">
                                         <div class="col-xs-12 col-sm-12 col-md-12">
                                             <p>
-                                                Dirk van Reenen Sr. of USA Land and Ranch is a local real estate expert ready to help you sell your land or property. 
+                                                Dirk van Reenen Sr. of USA Land and Ranch is a local real estate expert ready to help you sell your land or property.
                                             </p>
                                             <p>
                                                 From setting the price to creating marketing traditional and the Web, we have a plan that will match your land with the right buyers at the right price. We are committed to courteous, professional and fast personal service to help you feel at ease throughout the selling process.
@@ -497,14 +503,14 @@
                                                                 <div class="form-option">
                                                                     <input type="checkbox" id="property-sell-4" name="Farming or Irrigation operation">
                                                                     <label for="property-sell-4">Farming or Irrigation operation</label>
-                                                                </div>                                  
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="row">
                                                         <div class="col-md-12">
                                                             <div class="form-group">
-                                                                <label>What improvements are on your land?</label>                      
+                                                                <label>What improvements are on your land?</label>
                                                                 <div class="form-option">
                                                                     <input type="checkbox" id="improvement-sell-1" name="Open ranch land/ undeveloped">
                                                                     <label for="improvement-sell-1">Open ranch land/ undeveloped</label>
@@ -520,7 +526,7 @@
                                                                 <div class="form-option">
                                                                     <input type="checkbox" id="improvement-sell-4" name="Well developed">
                                                                     <label for="improvement-sell-4">Well developed</label>
-                                                                </div>              
+                                                                </div>
                                                             </div>
 
                                                         </div>
@@ -568,7 +574,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    
+
                                                     <div class="row">
                                                         <div class="col-md-6">
                                                             <div class="form-group">
@@ -584,12 +590,12 @@
                                                     <div class="row">
                                                         <div class="col-md-6">
                                                             <div class="form-group">
-                                                                <input type="email" name="email" class="form-control" placeholder="Email*" required="required">                                 
+                                                                <input type="email" name="email" class="form-control" placeholder="Email*" required="required">
                                                             </div>
                                                         </div>
                                                         <div class="col-md-6">
                                                             <div class="form-group">
-                                                                <input type="tel" name="Phone Number" class="form-control" placeholder="Phone Number*" required="required">       
+                                                                <input type="tel" name="Phone Number" class="form-control" placeholder="Phone Number*" required="required">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -607,7 +613,7 @@
                                     </div><!--/.row-->
 
                                 </div>
-                                
+
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default btn-lg" data-dismiss="modal">Close</button>
@@ -620,9 +626,10 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                                 <h4 class="modal-title">Seeking Finance</h4>
-
+																<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																	<span aria-hidden="true">&times;</span>
+																</button>
                             </div>
                             <div class="modal-body">
                                 <div class="container-fluid">
@@ -635,7 +642,7 @@
                                     <div class="row">
                                         <div class="col-xs-12 col-sm-12 col-md-12">
                                             <p>
-                                                Our team works with financiers who are professionals in their field of land financing and who are eager to help and assist you in the purchase of any property. We commit ourselves to professional, courteous and confidential service to help you make informed and wise decisions in any purchase. Trained and certified loan officers who specialize in land financing will be at your service. 
+                                                Our team works with financiers who are professionals in their field of land financing and who are eager to help and assist you in the purchase of any property. We commit ourselves to professional, courteous and confidential service to help you make informed and wise decisions in any purchase. Trained and certified loan officers who specialize in land financing will be at your service.
                                             </p>
                                         </div>
                                     </div>
@@ -670,12 +677,12 @@
                                                     <div class="row">
                                                         <div class="col-md-6">
                                                             <div class="form-group">
-                                                                <input type="email" name="email" class="form-control" placeholder="Email*" required="required">                                 
+                                                                <input type="email" name="email" class="form-control" placeholder="Email*" required="required">
                                                             </div>
                                                         </div>
                                                         <div class="col-md-6">
                                                             <div class="form-group">
-                                                                <input type="tel" name="Phone Number" class="form-control" placeholder="Phone Number*" required="required">       
+                                                                <input type="tel" name="Phone Number" class="form-control" placeholder="Phone Number*" required="required">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -731,7 +738,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </div>                                                  
+                                                    </div>
                                                     <div class="row">
                                                         <div class="col-md-12">
                                                             <input type="submit" class="btn read-more-btn btn-effect btn-sent theme-color" value="Submit">
@@ -746,7 +753,7 @@
                                     </div><!--/.row-->
 
                                 </div>
-                                
+
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default btn-lg" data-dismiss="modal">Close</button>
@@ -791,14 +798,14 @@
                                 <h3>Seeking Finance</h3>
                                 <p>Our team works with financiers who are professionals in their field of land financing and who are eager to help and assist you in the purchase of any property. We commit ourselves to professional, courteous and confidential service to help you make informed ...</p>
                                 <button class="read-more-btn" data-toggle="modal" data-target=".consulting-finance">Read More</button>
-                                
+
                             </div>
                         </div>
                     </div>
                 </div> <!--/.row -->
                 <br>
                             <h4>For more information</h4>
-                            
+
                             <p>Contact us at <a href="mailto:consulting@usalandandranch.com">consulting@usalandandranch.com</a></p>
 
             </div> <!--/.container -->
@@ -822,9 +829,9 @@
                             <li><a href="https://plus.google.com/+usalandandranch" target="_blank"><i class = "fab fa-google"></i></a></li>
 
 
-                            
+
                         </ul>
-        
+
                         <p>&copy;2019 <strong>USA Land and Ranch, LLC</strong>. All Rights Reserved</p>
                         <p>Last updated: 03/15/2019 02:10:45 PM</p>
                         <br>
