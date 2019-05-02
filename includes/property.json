@@ -9,6 +9,14 @@
 			"property_ID": "Briscoe-01"
 		},
 		{
+			"location": "Hall",
+			"title": "Property details coming soon",
+			"status": "selling",
+			"discription": "Property details coming soon.",
+			"image": "./img/property/TurkeyTX.jpg",
+			"property_ID": "Hall-01"
+		},
+		{
 			"location": "Hutchinson",
 			"title": "Hampton Inn in Borger, Texas - Hutchinson County",
 			"status": "selling",
