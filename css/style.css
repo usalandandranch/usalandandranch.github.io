@@ -418,6 +418,15 @@ ul.property-list li:hover, ul.property-list li.active{
     text-align: center;
     background: #DAA520;
 }
+.property-offmarket h1{
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    text-align: center;
+    background: #00BFFF;
+}
 .itemHover {
     position: absolute;
     top: 0;

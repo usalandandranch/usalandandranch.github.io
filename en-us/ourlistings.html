@@ -102,10 +102,10 @@
                         <a class="nav-link smooth-scroll" href="index.html">Home<span class="sr-only">(current)</span></a>
                       </li>
                       <li class="nav-item">
-                        
+
                       </li>
                             <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>                        
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="nav-link smooth-scroll" href="about.html">About Us</a>
                                 <a class="nav-link smooth-scroll" href="team.html">Our Team</a>
@@ -236,6 +236,9 @@
                     {{#compare status "selling" operator="=="}}
                     <button type="button" class="btn btn-primary btn-lg" data-dismiss="modal" onclick="fillForm('NO. {{property_ID}}: {{title}}')">Contact Us</button>
                     {{/compare}}
+										{{#compare status "offmarket" operator="=="}}
+                    <button type="button" class="btn btn-primary btn-lg" data-dismiss="modal" onclick="fillForm('NO. {{property_ID}}: {{title}}')">Contact Us</button>
+                    {{/compare}}
                 </div>
             </div>
         </div>
@@ -255,6 +258,11 @@
                         {{#compare status "pending" operator="=="}}
                         <div class="property-pending">
                             <h1>Pending</h1>
+                        </div>
+                        {{/compare}}
+												{{#compare status "offmarket" operator="=="}}
+                        <div class="property-offmarket">
+                            <h1>Off Market</h1>
                         </div>
                         {{/compare}}
                         <div class="itemHover">
