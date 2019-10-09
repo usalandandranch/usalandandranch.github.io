@@ -250,6 +250,11 @@
                 <div class="col-md-4 col-sm-12 col-xs-12">
                     <a>
                         <img src=.{{image}} alt="">
+												{{#compare type "auction" operator="=="}}
+                        <div class="property-auction">
+                            <p>Auction</p>
+                        </div>
+                        {{/compare}}
                         {{#compare status "sold" operator="=="}}
                         <div class="property-sold">
                             <h1>Sold</h1>
