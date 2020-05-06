@@ -154,43 +154,11 @@
 		},
 		{
 			"location": "Potter_Randall",
-			"title": "370 Acres to sell in 20 Acre Lots and Larger",
-			"status": "selling",
-			"discription": "370 Acres to sell in any size 20 Acres and Larger. Road frontage on Blessen Rd on the west. Road frontage on Hill Rd on the east. Starting at $ 5000.00/acre depending on the size. Purchase all 370 at $3,000/acre. Owner financing available. ​Survey at the expense of the buyer determined at the size purchased. Fence to be built at the expense of the buyer. No Mobile Homes. Come take a look, make your offer. Electricity available. 5 to 10 Minutes from Amarillo",
-			"image": "./img/property/370Amarillo.jpg",
-			"property_ID": "Potter_Randall-05"
-		},
-		{
-			"location": "Potter_Randall",
-			"title": "1005 South 10th Street - Undeveloped Lot",
-			"status": "selling",
-			"discription": "Amarillo, Texas. 60' x 142.6' (8556 sqft). Totally fenced with security fencing. Taxes $ 210.46 yearly. Price $30,000.00 or $3.50/sqft.",
-			"image": "./img/property/1005S10thSt.jpg",
-			"property_ID": "Potter_Randall-04"
-		},
-		{
-			"location": "Potter_Randall",
 			"title": "5.74 Acres for Sale Amarillo, TX - Potter County",
 			"status": "sold",
 			"discription": "This 5.74 acre property is in a great location with easy access to the city and country.",
 			"image": "./img/property/5.74Potter.jpg",
 			"property_ID": "Potter_Randall-03"
-		},
-		{
-			"location": "Potter_Randall",
-			"title": "2 x 5.1 Acres for Sale Amarillo, TX - Randall County",
-			"status": "selling",
-			"discription": "Two 5.1 acre properties adjacent to each other, +/- 2 miles east of Osage on FM 1151 north side of road with entire south side on road frontage.",
-			"image": "./img/property/5.1Randall.jpg",
-			"property_ID": "Potter_Randall-02"
-		},
-		{
-			"location": "Potter_Randall",
-			"title": "Stephen's Hog Farm - 27 Acres $350,000.00",
-			"status": "selling",
-			"discription": "This property lies on the corner of North Western Street and Diaz Ranch Road North of Amarillo. This was a fully commercial Hog Farm which housed up to 351 hogs and is well suited for many different uses with all the buildings. It could be used for aquaponics, hydroponics, chickens, animals such as goats and a horse place. There are 2 wells on the property. One for the house and one with a large underground storage tank for the farm. There are no exclusions on the property.",
-			"image": "./img/property/HogFarm.jpg",
-			"property_ID": "Potter_Randall-01"
 		},
 		{
 			"location": "South_Africa",
